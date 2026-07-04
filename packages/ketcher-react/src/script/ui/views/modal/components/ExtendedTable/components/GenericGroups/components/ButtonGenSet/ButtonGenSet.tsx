@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import clsx from 'clsx';
-import type { GenItem } from 'ketcher-core';
+import type { GenItem } from '@hoquanglinh/ketcher-core';
 import classes from './ButtonGenSet.module.less';
 
 type ButtonGenSetProps = {

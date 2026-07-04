@@ -45,7 +45,7 @@ export type AtomAttributes = {
   queryProperties?: AtomQueryProperties;
 };
 
-// need to get this type from Bond class in ketcher-core package
+// need to get this type from Bond class in @hoquanglinh/ketcher-core package
 export enum BondType {
   SINGLE = 1,
   DOUBLE,

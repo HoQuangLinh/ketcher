@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Editor
+[@hoquanglinh/ketcher-core](../README.md) / Editor
 
 # Interface: Editor
 

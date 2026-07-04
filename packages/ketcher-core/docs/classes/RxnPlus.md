@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RxnPlus
+[@hoquanglinh/ketcher-core](../README.md) / RxnPlus
 
 # Class: RxnPlus
 

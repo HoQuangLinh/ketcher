@@ -1,6 +1,6 @@
 import { useOptions } from './useOptions';
 import { renderHook } from '@testing-library/react';
-import type { Element } from 'ketcher-core';
+import type { Element } from '@hoquanglinh/ketcher-core';
 import { AbbreviationType } from '../AbbreviationLookup.types';
 
 jest.mock('react-redux', () => {
@@ -20,7 +20,7 @@ const ELEMENT: Element = {
   type: 'other-nonmetal',
   mass: 12.011,
 };
-jest.mock('ketcher-core', () => {
+jest.mock('@hoquanglinh/ketcher-core', () => {
   return {
     Elements: {
       getAll: () => [ELEMENT],

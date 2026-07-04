@@ -1,7 +1,7 @@
-# ketcher-standalone
+# @hoquanglinh/ketcher-standalone
 
-[![npm version](https://img.shields.io/npm/v/ketcher-standalone)](https://www.npmjs.com/package/ketcher-standalone)
-[![Downloads](https://img.shields.io/npm/dm/ketcher-standalone)](https://www.npmjs.com/package/ketcher-standalone)
+[![npm version](https://img.shields.io/npm/v/@hoquanglinh/ketcher-standalone)](https://www.npmjs.com/package/@hoquanglinh/ketcher-standalone)
+[![Downloads](https://img.shields.io/npm/dm/@hoquanglinh/ketcher-standalone)](https://www.npmjs.com/package/@hoquanglinh/ketcher-standalone)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Copyright (c) 2021 [EPAM Systems, Inc.](https://www.epam.com/)
@@ -10,24 +10,24 @@ Ketcher is an open-source web-based chemical structure editor incorporating high
 
 For more details please look at the following [link](https://github.com/epam/ketcher/blob/master/README.md).
 
-The ketcher-standalone package contains only the functionality necessary to start Ketcher in standalone mode. It is intended to be paired with the main Ketcher package, which is shipped as [ketcher-react](https://www.npmjs.com/package/ketcher-react) to npm.
+The @hoquanglinh/ketcher-standalone package contains only the functionality necessary to start Ketcher in standalone mode. It is intended to be paired with the main Ketcher package, which is shipped as [@hoquanglinh/ketcher-react](https://www.npmjs.com/package/@hoquanglinh/ketcher-react) to npm.
 
 ## Installation
 
 ```sh
-npm install --save ketcher-standalone
+npm install --save @hoquanglinh/ketcher-standalone
 ```
 
 or [Yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add ketcher-standalone
+yarn add @hoquanglinh/ketcher-standalone
 ```
 
 ## Usage
 
 ```js
-import { StandaloneStructServiceProvider } from 'ketcher-standalone'
+import { StandaloneStructServiceProvider } from '@hoquanglinh/ketcher-standalone'
 
 const structServiceProvider = new StandaloneStructServiceProvider()
 

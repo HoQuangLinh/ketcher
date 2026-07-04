@@ -1,7 +1,7 @@
-# ketcher-macromolecules
+# @hoquanglinh/ketcher-macromolecules
 
-[![npm version](https://img.shields.io/npm/v/ketcher-react)](https://www.npmjs.com/package/ketcher-macromolecules)
-[![Downloads](https://img.shields.io/npm/dm/ketcher-react)](https://www.npmjs.com/package/ketcher-macromolecules)
+[![npm version](https://img.shields.io/npm/v/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-macromolecules)
+[![Downloads](https://img.shields.io/npm/dm/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-macromolecules)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Copyright (c) 2021 [EPAM Systems, Inc.](https://www.epam.com/)
@@ -12,14 +12,14 @@ For more details please look at the following [link](https://github.com/epam/ket
 
 ## Installation
 
-The ketcher-macromolecules library is available as an [NPM](https://www.npmjs.com/) package. Install it either with NPM:
+The @hoquanglinh/ketcher-macromolecules library is available as an [NPM](https://www.npmjs.com/) package. Install it either with NPM:
 
 ```sh
-npm install --save ketcher-macromolecules
+npm install --save @hoquanglinh/ketcher-macromolecules
 ```
 
 or [Yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add ketcher-macromolecules
+yarn add @hoquanglinh/ketcher-macromolecules
 ```

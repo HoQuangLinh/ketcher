@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Box2Abs
+[@hoquanglinh/ketcher-core](../README.md) / Box2Abs
 
 # Class: Box2Abs
 

@@ -35,7 +35,7 @@ import {
   isControlKey,
   SGroup,
   vectorUtils,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import LassoHelper from '../helper/lasso';
 import { isMergingToMacroMolecule } from '../helper/isMacroMolecule';

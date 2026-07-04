@@ -1,6 +1,6 @@
 import { GroupIcon as StyledGroupIcon, GroupIconContainer } from './styles';
 import { memo } from 'react';
-import { IconName } from 'ketcher-react';
+import { IconName } from '@hoquanglinh/ketcher-react';
 
 type Props = {
   name: IconName;

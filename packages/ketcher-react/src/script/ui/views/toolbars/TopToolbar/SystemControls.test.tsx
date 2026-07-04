@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 
 import { SystemControls } from './SystemControls';
 
-jest.mock('ketcher-core', () => ({
+jest.mock('@hoquanglinh/ketcher-core', () => ({
   shortcutStr: () => 'Shift+/',
 }));
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / TextCommand
+[@hoquanglinh/ketcher-core](../README.md) / TextCommand
 
 # Enumeration: TextCommand
 

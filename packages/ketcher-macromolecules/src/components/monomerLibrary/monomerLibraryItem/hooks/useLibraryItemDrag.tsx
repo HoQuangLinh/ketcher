@@ -1,7 +1,11 @@
 import { RefObject, useEffect } from 'react';
 import { D3DragEvent, drag, select } from 'd3';
 import { selectEditor, setIsDragging } from 'state/common';
-import { IRnaPreset, MonomerOrAmbiguousType, ZoomTool } from 'ketcher-core';
+import {
+  IRnaPreset,
+  MonomerOrAmbiguousType,
+  ZoomTool,
+} from '@hoquanglinh/ketcher-core';
 import { useDispatch, useSelector } from 'react-redux';
 
 export const useLibraryItemDrag = (

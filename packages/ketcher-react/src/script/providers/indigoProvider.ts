@@ -1,4 +1,4 @@
-import type { StructService } from 'ketcher-core';
+import type { StructService } from '@hoquanglinh/ketcher-core';
 
 let indigo;
 export class IndigoProvider {

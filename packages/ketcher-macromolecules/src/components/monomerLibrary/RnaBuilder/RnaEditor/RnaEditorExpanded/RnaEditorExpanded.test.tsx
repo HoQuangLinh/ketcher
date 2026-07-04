@@ -1,4 +1,4 @@
-import { Entities } from 'ketcher-core';
+import { Entities } from '@hoquanglinh/ketcher-core';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { RnaEditorExpanded } from 'components/monomerLibrary/RnaBuilder/RnaEditor/RnaEditorExpanded/RnaEditorExpanded';
 import { EmptyFunction } from 'helpers';

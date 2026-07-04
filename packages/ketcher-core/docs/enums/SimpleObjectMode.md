@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SimpleObjectMode
+[@hoquanglinh/ketcher-core](../README.md) / SimpleObjectMode
 
 # Enumeration: SimpleObjectMode
 

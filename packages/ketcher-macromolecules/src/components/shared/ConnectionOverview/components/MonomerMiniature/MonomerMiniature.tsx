@@ -6,7 +6,7 @@ import {
   Coordinates,
   UsageInMacromolecule,
   Vec2,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useLayoutEffect, useRef } from 'react';
 
 import { Container } from './MonomerMiniature.styles';

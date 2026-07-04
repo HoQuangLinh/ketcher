@@ -1,5 +1,10 @@
 import { xor } from 'lodash/fp';
-import { type Atom, type Bond, type ReStruct, SGroup } from 'ketcher-core';
+import {
+  type Atom,
+  type Bond,
+  type ReStruct,
+  SGroup,
+} from '@hoquanglinh/ketcher-core';
 import type { Editor, Selection } from '../../Editor';
 import type LassoHelper from '../helper/lasso';
 import { getGroupIdsFromItemArrays } from '../helper/getGroupIdsFromItems';

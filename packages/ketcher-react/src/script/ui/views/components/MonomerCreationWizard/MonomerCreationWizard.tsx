@@ -24,7 +24,7 @@ import {
   MonomerCreationComponentStructureUpdateEvent,
   NO_NATURAL_ANALOGUE,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import Select from '../../../component/form/Select';
 import { useCallback, useEffect, useMemo, useReducer, useState } from 'react';
 import clsx from 'clsx';

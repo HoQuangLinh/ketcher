@@ -2,7 +2,7 @@
 
 **Status:** Planning Phase
 **Date:** 2026-03-07
-**Target:** Introduce full-featured settings dialog in ketcher-macromolecules
+**Target:** Introduce full-featured settings dialog in @hoquanglinh/ketcher-macromolecules
 
 ---
 
@@ -12,21 +12,21 @@ This plan details the implementation of a settings window in macromolecules mode
 - ✅ Shows **ALL** settings (no hiding based on relevance)
 - ✅ Follows macromolecules UI patterns (MUI-based modals)
 - ✅ Maintains consistency with small molecules UX (same field organization)
-- ✅ Leverages centralized SettingsService from ketcher-core
+- ✅ Leverages centralized SettingsService from @hoquanglinh/ketcher-core
 - ✅ Implements import/export, reset, and preset functionality
 
 ---
 
 ## Current State Summary
 
-**Small Molecules (ketcher-react):**
+**Small Molecules (@hoquanglinh/ketcher-react):**
 - ✅ Full-featured Settings dialog with 7 accordion tabs
 - ✅ Custom Dialog component with Header/Body/Footer structure
 - ✅ Redux integration (legacy) + SettingsService (modern)
 - ✅ Features: Open/Save JSON, Reset to defaults, Apply ACS preset
 - ✅ Styled with CSS Modules (LESS)
 
-**Macromolecules (ketcher-macromolecules):**
+**Macromolecules (@hoquanglinh/ketcher-macromolecules):**
 - ⚠️ Settings button exists but only logs to console
 - ✅ MUI-based modal system with Redux Toolkit
 - ✅ Working examples: Save, Open, Delete, About modals
@@ -158,7 +158,7 @@ import { ActionButton } from '../../shared/actionButton';
 import { SettingsAccordion } from './SettingsAccordion';
 import { useAppSelector } from '../../../hooks';
 import { selectEditor } from '../../../state/common/editorSlice';
-import { Settings as SettingsType } from 'ketcher-core';
+import { Settings as SettingsType } from '@hoquanglinh/ketcher-core';
 import isEqual from 'lodash/isEqual';
 import styles from './Settings.module.less';
 
@@ -396,7 +396,7 @@ export const Settings: React.FC<SettingsProps> = ({ isModalOpen, onClose }) => {
 import React from 'react';
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Settings } from 'ketcher-core';
+import { Settings } from '@hoquanglinh/ketcher-core';
 import { FIELD_GROUPS } from './fieldGroups';
 import { SettingsFields } from './SettingsFields';
 import styles from './Settings.module.less';
@@ -453,7 +453,7 @@ export const SettingsAccordion: React.FC<SettingsAccordionProps> = ({
 
 ```typescript
 import React from 'react';
-import { Settings } from 'ketcher-core';
+import { Settings } from '@hoquanglinh/ketcher-core';
 import { SettingsField } from './SettingsField';
 import { FIELD_DEFINITIONS } from './fieldGroups';
 import styles from './Settings.module.less';
@@ -642,7 +642,7 @@ export const SettingsField: React.FC<SettingsFieldProps> = ({
 **File:** `src/components/modal/Settings/fieldGroups.ts`
 
 ```typescript
-import { Settings } from 'ketcher-core';
+import { Settings } from '@hoquanglinh/ketcher-core';
 
 export interface FieldGroup {
   id: string;
@@ -1208,7 +1208,7 @@ All settings from the Settings interface will be displayed in the macromolecules
 
 **Implementation Approach:**
 - Use the exact same 7-group structure as small molecules
-- Use the exact same field definitions from ketcher-core Settings interface
+- Use the exact same field definitions from @hoquanglinh/ketcher-core Settings interface
 - No filtering, no hiding, no conditional rendering
 - Future macromolecules-specific settings can be added to appropriate groups or as a new group
 

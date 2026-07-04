@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react';
 import useFunctionalGroupEoc from './useFunctionalGroupEoc';
-import type { FunctionalGroup } from 'ketcher-core';
+import type { FunctionalGroup } from '@hoquanglinh/ketcher-core';
 import type {
   ItemEventParams,
   FunctionalGroupsContextMenuProps,

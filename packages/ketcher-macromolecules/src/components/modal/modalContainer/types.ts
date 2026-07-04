@@ -1,5 +1,5 @@
-import { BaseMonomer } from 'ketcher-core';
-import { PolymerBond } from 'ketcher-core/dist/domain/entities/PolymerBond';
+import { BaseMonomer } from '@hoquanglinh/ketcher-core';
+import { PolymerBond } from '@hoquanglinh/ketcher-core/dist/domain/entities/PolymerBond';
 
 export interface MonomerConnectionOnlyProps {
   firstMonomer?: BaseMonomer;

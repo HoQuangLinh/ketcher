@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import { type RefObject, useRef } from 'react';
-import { CREATE_MONOMER_TOOL_NAME, IMAGE_KEY } from 'ketcher-core';
+import { CREATE_MONOMER_TOOL_NAME, IMAGE_KEY } from '@hoquanglinh/ketcher-core';
 import {
   type ToolbarGroupItemCallProps,
   type ToolbarGroupItemProps,

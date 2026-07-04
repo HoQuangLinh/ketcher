@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / CheckData
+[@hoquanglinh/ketcher-core](../README.md) / CheckData
 
 # Interface: CheckData
 

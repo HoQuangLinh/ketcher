@@ -23,7 +23,7 @@ import {
   isControlKey,
   isClipboardAPIAvailable,
   notifyCopyCut,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const ieCb: DataTransfer | undefined =
   typeof window !== 'undefined'

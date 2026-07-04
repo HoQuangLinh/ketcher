@@ -4,7 +4,7 @@ import type {
   MultitailArrowReferencePosition,
   Action,
   MULTITAIL_ARROW_KEY,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { ClosestItemWithMap } from '../../shared/closest.types';
 
 export type ArrowAddTool = Required<

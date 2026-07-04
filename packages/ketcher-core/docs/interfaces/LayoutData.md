@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / LayoutData
+[@hoquanglinh/ketcher-core](../README.md) / LayoutData
 
 # Interface: LayoutData
 

@@ -31,7 +31,7 @@ import {
   MemoryStorageAdapter,
   getDefaultSettings,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const TEST_KETCHER_ID = 'settings-integration-test';
 

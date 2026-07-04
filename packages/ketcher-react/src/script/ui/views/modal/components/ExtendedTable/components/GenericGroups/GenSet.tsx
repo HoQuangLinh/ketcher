@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import type { GenItemSet } from 'ketcher-core';
+import type { GenItemSet } from '@hoquanglinh/ketcher-core';
 import classes from './GenSet.module.less';
 import { isGenericGroup } from '../../helpers';
 import ButtonGenSet from './components/ButtonGenSet';

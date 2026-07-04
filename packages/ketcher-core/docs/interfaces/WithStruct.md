@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / WithStruct
+[@hoquanglinh/ketcher-core](../README.md) / WithStruct
 
 # Interface: WithStruct
 

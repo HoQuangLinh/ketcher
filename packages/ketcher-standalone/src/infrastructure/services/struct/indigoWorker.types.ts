@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-import { IKetMacromoleculesContent } from 'ketcher-core';
+import { IKetMacromoleculesContent } from '@hoquanglinh/ketcher-core';
 
 // TODO add typings for Indigo standalone object
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / CalculateData
+[@hoquanglinh/ketcher-core](../README.md) / CalculateData
 
 # Interface: CalculateData
 

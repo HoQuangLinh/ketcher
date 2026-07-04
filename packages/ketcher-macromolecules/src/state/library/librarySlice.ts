@@ -34,7 +34,7 @@ import {
   IKetIdtAliases,
   IKetMonomerGroupTemplate,
   isAmbiguousMonomerLibraryItem,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   LibraryNameType,
   FAVORITE_ITEMS_UNIQUE_KEYS,

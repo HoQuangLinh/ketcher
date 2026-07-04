@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / DearomatizeResult
+[@hoquanglinh/ketcher-core](../README.md) / DearomatizeResult
 
 # Interface: DearomatizeResult
 

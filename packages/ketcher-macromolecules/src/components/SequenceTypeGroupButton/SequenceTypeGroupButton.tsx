@@ -20,7 +20,7 @@ import {
   selectEditor,
   selectIsSequenceEditInRNABuilderMode,
 } from 'state/common';
-import { SequenceType } from 'ketcher-core';
+import { SequenceType } from '@hoquanglinh/ketcher-core';
 import styled from '@emotion/styled';
 import { ButtonGroup, Button, Box } from '@mui/material';
 import { setSelectedTabIndex } from 'state/library';

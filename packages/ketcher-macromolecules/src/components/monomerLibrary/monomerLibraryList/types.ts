@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import { LibraryNameType } from 'src/constants';
-import { MonomerItemType } from 'ketcher-core';
+import { MonomerItemType } from '@hoquanglinh/ketcher-core';
 
 export type Group = {
   groupItems: Array<MonomerItemType>;

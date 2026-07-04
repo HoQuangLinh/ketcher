@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Atom
+[@hoquanglinh/ketcher-core](../README.md) / Atom
 
 # Class: Atom
 

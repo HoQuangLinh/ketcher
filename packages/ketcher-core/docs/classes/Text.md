@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Text
+[@hoquanglinh/ketcher-core](../README.md) / Text
 
 # Class: Text
 

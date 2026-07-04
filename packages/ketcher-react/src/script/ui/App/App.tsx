@@ -39,7 +39,7 @@ import {
 } from '../../../hooks';
 import { AbbreviationLookupContainer } from '../dialog/AbbreviationLookup';
 import { initLib } from '../state/templates/init-lib';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 import { useAppDispatch } from '../state/hooks';
 import { selectSnackbarNotificationText } from '../state/notifications';
 import { useSelector } from 'react-redux';
@@ -93,7 +93,7 @@ const App = (props: Props) => {
       dispatch(initLib([]));
       dispatch(initSaltsAndSolvents([]));
       dispatch(initFGroups([]));
-      // App component is unmounted after editor components (MicromoleculeEditor.tsx and ketcher-react/src/Editor.tsx)
+      // App component is unmounted after editor components (MicromoleculeEditor.tsx and @hoquanglinh/ketcher-react/src/Editor.tsx)
       // due to asynchronous behaviour (see packages/ketcher-react/src/MicromoleculesEditor.tsx, appRootRef.current.unmount call).
       // In other hand we still ketcher instance in ketcherProvider for useSubscriptionOnEvents cleanup function.
       // So we need to remove ketcher instance from ketcherProvider here.

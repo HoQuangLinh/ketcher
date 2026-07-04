@@ -21,7 +21,7 @@ import {
   type Struct,
   FunctionalGroupsProvider,
   SdfSerializer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import templatesRawData from '../../../../templates/fg.sdf';
 import { memoizedDebounce } from '../../utils';
 import { TOOLTIP_DELAY } from '../../../editor/utils/functionalGroupsTooltip';

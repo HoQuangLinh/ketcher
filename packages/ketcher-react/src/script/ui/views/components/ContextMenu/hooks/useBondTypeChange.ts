@@ -3,7 +3,7 @@ import {
   fromBondsAttrs,
   ketcherProvider,
   bondChangingAction,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useCallback } from 'react';
 import { useAppContext } from 'src/hooks';
 import type Editor from 'src/script/editor';

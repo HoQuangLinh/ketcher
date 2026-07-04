@@ -18,7 +18,7 @@ import { useEffect, useState } from 'react';
 import { useAppSelector, useLayoutMode } from 'hooks';
 import { hasAntisenseChains, selectEditor } from 'state/common';
 import styled from '@emotion/styled';
-import { Button } from 'ketcher-react';
+import { Button } from '@hoquanglinh/ketcher-react';
 import { blurActiveElement } from 'helpers/canvas';
 
 const StyledButton = styled(Button)<{ isActive?: boolean }>(

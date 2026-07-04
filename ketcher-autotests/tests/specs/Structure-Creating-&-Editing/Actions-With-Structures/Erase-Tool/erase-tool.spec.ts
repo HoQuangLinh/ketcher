@@ -8,7 +8,7 @@ import {
   clickOnCanvas,
 } from '@utils';
 import { selectAllStructuresOnCanvas } from '@utils/canvas/selectSelection';
-import { RxnArrow, RxnPlus } from 'ketcher-core';
+import { RxnArrow, RxnPlus } from '@hoquanglinh/ketcher-core';
 import { CommonLeftToolbar } from '@tests/pages/common/CommonLeftToolbar';
 import { CommonTopLeftToolbar } from '@tests/pages/common/CommonTopLeftToolbar';
 import { getBondLocator } from '@utils/macromolecules/polymerBond';

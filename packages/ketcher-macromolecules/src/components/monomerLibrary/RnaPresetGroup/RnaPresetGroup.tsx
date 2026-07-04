@@ -20,7 +20,7 @@ import {
   isAmbiguousMonomerLibraryItem,
   MonomerItemType,
   RnaPresetWithOptionalFields,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { debounce } from 'lodash';
 import React, { ReactElement, useCallback } from 'react';
 import {
@@ -50,7 +50,7 @@ import {
 import {
   calculateAmbiguousMonomerPreviewTop,
   calculateNucleoElementPreviewTop,
-} from 'ketcher-react';
+} from '@hoquanglinh/ketcher-react';
 import { needSkipPreviewForElement } from 'components/preview/helpers';
 
 export const RnaPresetGroup = ({ presets, duplicatePreset, editPreset }) => {

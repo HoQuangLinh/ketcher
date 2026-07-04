@@ -23,7 +23,7 @@ import {
   MonomerSequenceNode,
   Entities,
   NodesSelection,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { generateSequenceContextMenuProps } from 'components/contextMenu/SequenceItemContextMenu/helpers';
 
 const instanceOfNucleotide = Object.create(Nucleotide.prototype);

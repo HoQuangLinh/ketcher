@@ -6,7 +6,7 @@ import {
   KetMonomerClass,
   KetTemplateType,
   Vec2,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const COPY_SUFFIX = '_Copy';
 

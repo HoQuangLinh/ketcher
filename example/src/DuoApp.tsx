@@ -1,7 +1,7 @@
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/dist/index.css';
 import { StrictMode, useEffect, useState } from 'react';
-import { Editor, InfoModal } from 'ketcher-react';
-import { Ketcher, StructServiceProvider } from 'ketcher-core';
+import { Editor, InfoModal } from '@hoquanglinh/ketcher-react';
+import { Ketcher, StructServiceProvider } from '@hoquanglinh/ketcher-core';
 import { getStructServiceProvider } from './utils';
 import {
   getHiddenButtonsConfig,

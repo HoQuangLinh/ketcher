@@ -29,7 +29,7 @@ import {
   IconName,
   KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
   usePortalStyle,
-} from 'ketcher-react';
+} from '@hoquanglinh/ketcher-react';
 import { createPortal } from 'react-dom';
 import {
   selectSelectedMenuGroupItem,

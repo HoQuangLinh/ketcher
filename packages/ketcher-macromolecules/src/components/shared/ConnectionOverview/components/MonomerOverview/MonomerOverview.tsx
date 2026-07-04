@@ -3,7 +3,7 @@ import {
   AmbiguousMonomer,
   BaseMonomer,
   UsageInMacromolecule,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   AttachmentPointList,
   StyledStructRender,

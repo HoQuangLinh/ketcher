@@ -4,7 +4,7 @@ import type {
   IKetIdtAliases,
   MonomerItemType,
   PolymerBond,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export enum PreviewType {
   Monomer = 'monomer',

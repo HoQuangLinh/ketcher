@@ -23,7 +23,7 @@ import {
   IMAGE_KEY,
   MULTITAIL_ARROW_KEY,
   FunctionalGroup,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { ClosestItem, ClosestItemWithMap } from './closest.types';
 
 const SELECTION_DISTANCE_COEFFICIENT = 0.4;

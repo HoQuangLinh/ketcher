@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SmiSerializerOptions
+[@hoquanglinh/ketcher-core](../README.md) / SmiSerializerOptions
 
 # Interface: SmiSerializerOptions
 

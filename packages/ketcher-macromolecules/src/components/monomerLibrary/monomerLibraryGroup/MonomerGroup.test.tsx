@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import { render, screen } from '@testing-library/react';
-import { Struct } from 'ketcher-core';
+import { Struct } from '@hoquanglinh/ketcher-core';
 
 import { MonomerGroup } from './MonomerGroup';
 import { getMonomerUniqueKey } from 'state/library';

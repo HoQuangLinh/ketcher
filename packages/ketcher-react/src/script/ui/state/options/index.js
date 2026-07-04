@@ -25,7 +25,7 @@ import {
   ketcherProvider,
   normalizeSettingsForCore,
   normalizeSettingsForForm,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { pick } from 'lodash/fp';
 import { storage } from '../../storage-ext';
@@ -141,7 +141,7 @@ export function appUpdate(data) {
 /* SETTINGS */
 export function saveSettings(newSettings, ketcherId) {
   return async (dispatch) => {
-    // Try to update via ketcher-core settings service if available
+    // Try to update via @hoquanglinh/ketcher-core settings service if available
     // Use window.ketcher since Redux state doesn't store the Ketcher instance
     const settingsService =
       ketcherProvider.getKetcher(ketcherId)?.settingsService;
@@ -181,9 +181,9 @@ export function saveSettings(newSettings, ketcherId) {
 }
 
 /**
- * Sync settings from ketcher-core SettingsService to Redux
+ * Sync settings from @hoquanglinh/ketcher-core SettingsService to Redux
  * Used for backward compatibility - Redux becomes a passive consumer
- * @param {Settings} coreSettings - Settings from ketcher-core in flat format
+ * @param {Settings} coreSettings - Settings from @hoquanglinh/ketcher-core in flat format
  */
 export function syncSettingsFromCore(coreSettings) {
   // Transform from SettingsService format to Redux format

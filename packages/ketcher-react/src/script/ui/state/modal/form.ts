@@ -18,7 +18,7 @@ import { initSdata, nucleotideComponentReducer, sdataReducer } from './sdata';
 
 import { getDefaultOptions } from '../../data/schema/options-schema';
 import { sdataCustomSchema } from '../../data/schema/sdata-schema';
-import { SUPERATOM_CLASS } from 'ketcher-core';
+import { SUPERATOM_CLASS } from '@hoquanglinh/ketcher-core';
 import type { AnyAction } from 'redux';
 
 export type ModalFormErrors = Record<string, unknown>;

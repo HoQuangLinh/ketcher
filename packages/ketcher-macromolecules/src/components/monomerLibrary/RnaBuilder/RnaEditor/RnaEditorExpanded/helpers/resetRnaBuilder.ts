@@ -1,5 +1,5 @@
 import { AnyAction, Dispatch } from 'redux';
-import { CoreEditor } from 'ketcher-core';
+import { CoreEditor } from '@hoquanglinh/ketcher-core';
 import {
   setActivePresetMonomerGroup,
   setIsEditMode,

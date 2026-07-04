@@ -4,7 +4,7 @@ import {
   isAmbiguousMonomerLibraryItem,
   monomerFactory,
   MonomerOrAmbiguousType,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useMemo } from 'react';
 
 type Props = {

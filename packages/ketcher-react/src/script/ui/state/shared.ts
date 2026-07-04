@@ -25,7 +25,7 @@ import {
   KetcherLogger,
   SettingsManager,
   getSelectionFromStruct,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { supportedSGroupTypes } from './constants';
 import { setAnalyzingFile } from './request';

@@ -20,7 +20,7 @@ import {
   toggleMacromoleculesPropertiesWindowVisibility,
 } from 'state/common';
 import styled from '@emotion/styled';
-import { Button } from 'ketcher-react';
+import { Button } from '@hoquanglinh/ketcher-react';
 import { blurActiveElement } from 'helpers/canvas';
 import { useRecalculateMacromoleculeProperties } from '../../hooks/useRecalculateMacromoleculeProperties';
 import { hotkeysShortcuts } from 'components/ZoomControls/helpers';

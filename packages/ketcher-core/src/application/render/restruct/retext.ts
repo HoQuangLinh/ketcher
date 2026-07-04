@@ -62,7 +62,7 @@ const IS_ITALIC = 2;
 const IS_SUBSCRIPT = 32;
 const IS_SUPERSCRIPT = 64;
 
-const SCALE = 40; // from ketcher-core
+const SCALE = 40; // from @hoquanglinh/ketcher-core
 
 class ReText extends ReObject {
   private readonly item: Text;
@@ -169,7 +169,7 @@ class ReText extends ReObject {
 
     let shiftY = 0;
     this.paths = [];
-    // TODO: create parser in ketcher-core package
+    // TODO: create parser in @hoquanglinh/ketcher-core package
 
     let editorState: SerializedEditorState | null = null;
     try {

@@ -1,4 +1,8 @@
-import { Action, ketcherProvider, setExpandMonomerSGroup } from 'ketcher-core';
+import {
+  Action,
+  ketcherProvider,
+  setExpandMonomerSGroup,
+} from '@hoquanglinh/ketcher-core';
 import { useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { useAppContext } from 'src/hooks';

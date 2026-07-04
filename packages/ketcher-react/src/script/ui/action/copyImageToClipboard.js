@@ -19,7 +19,7 @@ import {
   KetcherLogger,
   ketcherProvider,
   KetSerializer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 async function copyImageToClipboard() {
   const state = global.currentState;

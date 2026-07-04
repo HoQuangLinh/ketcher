@@ -27,7 +27,7 @@ import {
   vectorUtils,
   Atom,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import type Editor from '../Editor';
 import type { Tool } from './Tool';

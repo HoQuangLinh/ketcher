@@ -1,4 +1,4 @@
-import type { Struct } from 'ketcher-core';
+import type { Struct } from '@hoquanglinh/ketcher-core';
 
 type StructureSelection = {
   atoms?: number[];

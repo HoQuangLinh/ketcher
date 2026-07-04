@@ -28,7 +28,7 @@ import useIDTAliasesTextForMonomer from '../../hooks/useIDTAliasesTextForMonomer
 import UnresolvedMonomerPreview from '../UnresolvedMonomerPreview/UnresolvedMonomerPreview';
 import MonomerPreviewProperties from '../MonomerPreviewProperties/MonomerPreviewProperties';
 import AttachmentPoints from '../AttachmentPoints/AttachmentPoints';
-import { UsageInMacromolecule } from 'ketcher-core';
+import { UsageInMacromolecule } from '@hoquanglinh/ketcher-core';
 import { MonomerPreviewState } from 'state';
 
 interface Props {

@@ -2,7 +2,10 @@ import {
   generateSequenceSelectionName,
   generateSequenceSelectionGroupNames,
 } from 'components/monomerLibrary/RnaBuilder/RnaEditor/RnaEditorExpanded/helpers/sequenceEdit';
-import { Entities, LabeledNodesWithPositionInSequence } from 'ketcher-core';
+import {
+  Entities,
+  LabeledNodesWithPositionInSequence,
+} from '@hoquanglinh/ketcher-core';
 
 describe('generateSequenceSelectionName', () => {
   it('returns the properly formatted string when a nucleotide is passed', () => {

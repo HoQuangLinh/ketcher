@@ -1,4 +1,4 @@
-import { IKetIdtAliases } from 'ketcher-core';
+import { IKetIdtAliases } from '@hoquanglinh/ketcher-core';
 import { useMemo } from 'react';
 import { PresetPosition } from 'state';
 import { removeSlashesFromIdtAlias } from 'helpers';

@@ -31,8 +31,8 @@ import {
   provideEditorInstance,
   SequenceRenderer,
   Vec2,
-} from 'ketcher-core';
-import { IndigoProvider } from 'ketcher-react';
+} from '@hoquanglinh/ketcher-core';
+import { IndigoProvider } from '@hoquanglinh/ketcher-react';
 import { RequiredModalProps } from '../modalContainer';
 import { OpenFileWrapper } from './Open.styles';
 import {

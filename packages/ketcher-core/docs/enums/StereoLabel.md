@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StereoLabel
+[@hoquanglinh/ketcher-core](../README.md) / StereoLabel
 
 # Enumeration: StereoLabel
 

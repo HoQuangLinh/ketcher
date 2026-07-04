@@ -17,7 +17,7 @@
 import classes from './Atom.module.less';
 import clsx from 'clsx';
 import type { ButtonHTMLAttributes } from 'react';
-import type { Element } from 'ketcher-core';
+import type { Element } from '@hoquanglinh/ketcher-core';
 
 type AtomProps = Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'value'> & {
   el: Element;

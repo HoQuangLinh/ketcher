@@ -1,4 +1,4 @@
-import { KetMonomerClass } from 'ketcher-core';
+import { KetMonomerClass } from '@hoquanglinh/ketcher-core';
 import { getMonomerPropertyVisibility } from './MonomerCreationWizardFields.utils';
 
 describe('getMonomerPropertyVisibility', () => {

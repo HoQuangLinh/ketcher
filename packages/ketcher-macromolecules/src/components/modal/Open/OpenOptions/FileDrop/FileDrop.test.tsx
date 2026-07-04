@@ -15,7 +15,7 @@
  ***************************************************************************/
 import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { IconName } from 'ketcher-react';
+import { IconName } from '@hoquanglinh/ketcher-react';
 
 import { FileDrop, FileDropProps } from './FileDrop';
 

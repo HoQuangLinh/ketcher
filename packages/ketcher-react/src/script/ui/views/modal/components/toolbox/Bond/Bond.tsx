@@ -26,7 +26,7 @@ import { getSelectOptionsFromSchema } from '../../../../../utils';
 import { bond as bondSchema } from '../../../../../data/schema/struct-schema';
 import classes from './Bond.module.less';
 import { useMemo, useRef, useState } from 'react';
-import { Bond as CoreBond, SettingsManager } from 'ketcher-core';
+import { Bond as CoreBond, SettingsManager } from '@hoquanglinh/ketcher-core';
 import { MONOMER_WIZARD_DISALLOWED_BOND_TYPES } from '../../../../components/ContextMenu/utils';
 
 interface BondSettings {

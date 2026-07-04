@@ -4,7 +4,7 @@ import {
   type SGroup,
   Vec2,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import clsx from 'clsx';
 import classes from './InfoPanel.module.less';
 import { calculateMiddleCoordsForRect } from './helpers';

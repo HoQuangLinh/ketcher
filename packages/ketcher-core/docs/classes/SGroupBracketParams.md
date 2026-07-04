@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SGroupBracketParams
+[@hoquanglinh/ketcher-core](../README.md) / SGroupBracketParams
 
 # Class: SGroupBracketParams
 

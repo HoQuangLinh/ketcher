@@ -1,4 +1,4 @@
-import { AttachmentPointName } from 'ketcher-core';
+import { AttachmentPointName } from '@hoquanglinh/ketcher-core';
 
 import {
   getRequiredAttachmentPointsForPhosphatePosition,

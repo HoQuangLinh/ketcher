@@ -31,7 +31,11 @@ import { isEqual, omit } from 'lodash';
 import { FloatingToolContainer } from '../../toolbars';
 import { ContextMenu, ContextMenuTrigger } from '../ContextMenu';
 import InfoPanel from './InfoPanel';
-import { type Struct, KetcherLogger, ketcherProvider } from 'ketcher-core';
+import {
+  type Struct,
+  KetcherLogger,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 import { getSmoothScrollDelta } from './helpers';
 import InfoTooltip from './InfoTooltip';
 import MonomerCreationWizard from '../MonomerCreationWizard/MonomerCreationWizard';

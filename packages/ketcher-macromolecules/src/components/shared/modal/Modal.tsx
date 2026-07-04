@@ -8,7 +8,10 @@ import {
 import React, { useMemo } from 'react';
 import { useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
-import { Icon, KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR } from 'ketcher-react';
+import {
+  Icon,
+  KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
+} from '@hoquanglinh/ketcher-react';
 import { scrollbarThin } from 'theming/mixins';
 import { EmptyFunction } from 'helpers/emptyFunction';
 import styles from './Modal.module.less';

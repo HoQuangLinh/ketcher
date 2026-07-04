@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Element
+[@hoquanglinh/ketcher-core](../README.md) / Element
 
 # Interface: Element
 

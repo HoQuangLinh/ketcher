@@ -4,7 +4,7 @@ import { FullscreenButton } from '.';
 
 const mockGetFullscreenElement = jest.fn();
 
-jest.mock('ketcher-react', () => ({
+jest.mock('@hoquanglinh/ketcher-react', () => ({
   IconButton: ({
     onClick,
     iconName,

@@ -16,7 +16,7 @@
 
 import Form, { type FormState, Field } from '../../../component/form/form/form';
 import type { ComponentType, FC } from 'react';
-import { type Struct, StereoLabel } from 'ketcher-core';
+import { type Struct, StereoLabel } from '@hoquanglinh/ketcher-core';
 
 import { Dialog } from '../../../views/components';
 import classes from './enhancedStereo.module.less';

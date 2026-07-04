@@ -1,4 +1,7 @@
-import { type AttachmentPointName, KetMonomerClass } from 'ketcher-core';
+import {
+  type AttachmentPointName,
+  KetMonomerClass,
+} from '@hoquanglinh/ketcher-core';
 import { getValidationRuleForMonomerType } from './MonomerValidationRules';
 import type { WizardNotification } from './MonomerCreationWizard.types';
 import type { Editor } from 'src/script/editor/Editor';

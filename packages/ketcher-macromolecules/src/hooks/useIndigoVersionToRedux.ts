@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { IndigoProvider } from 'ketcher-react';
+import { IndigoProvider } from '@hoquanglinh/ketcher-react';
 import { useAppDispatch, useAppSelector } from './stateHooks';
 import { setAppMeta, selectAppMeta } from 'state/common/editorSlice';
 

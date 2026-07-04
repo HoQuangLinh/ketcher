@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Bond
+[@hoquanglinh/ketcher-core](../README.md) / Bond
 
 # Class: Bond
 

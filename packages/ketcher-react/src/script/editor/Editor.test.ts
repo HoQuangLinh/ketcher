@@ -1,4 +1,4 @@
-import { Bond } from 'ketcher-core';
+import { Bond } from '@hoquanglinh/ketcher-core';
 import Editor from './Editor';
 
 type MockBond = {

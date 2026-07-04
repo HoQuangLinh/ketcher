@@ -26,7 +26,7 @@ import {
   SGroup,
   expandSGroupWithMultipleAttachmentPoint,
   KetcherLogger,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import LassoHelper from './helper/lasso';
 import { isEqual } from 'lodash/fp';

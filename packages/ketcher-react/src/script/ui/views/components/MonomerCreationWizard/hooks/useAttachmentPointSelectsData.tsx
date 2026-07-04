@@ -2,7 +2,7 @@ import {
   type AttachmentPointName,
   AtomLabel,
   getAttachmentPointNumberFromLabel,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { Editor } from '../../../../../editor';
 import type { Option } from '../../../../component/form/Select';
 

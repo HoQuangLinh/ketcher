@@ -239,7 +239,7 @@ import {
   CREATE_MONOMER_TOOL_NAME,
   IMAGE_KEY,
   MULTITAIL_ARROW_TOOL_NAME,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import CrossIcon from '../../../assets/icons/files/cross.svg';
 import PlusIcon from '../../../assets/icons/files/plus.svg';
 import ArrowsUpDownIcon from '../../../assets/icons/files/arrows-up-down.svg';

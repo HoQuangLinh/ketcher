@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Highlight
+[@hoquanglinh/ketcher-core](../README.md) / Highlight
 
 # Class: Highlight
 

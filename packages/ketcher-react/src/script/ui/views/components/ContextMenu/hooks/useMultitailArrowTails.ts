@@ -10,7 +10,7 @@ import {
   fromMultitailArrowTailRemove,
   MultitailArrow,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from 'src/script/editor';
 
 type Params = ItemEventParams<MultitailArrowContextMenuProps>;

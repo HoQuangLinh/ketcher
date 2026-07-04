@@ -11,7 +11,7 @@ import {
   Coordinates,
   ketcherProvider,
   MonomerCreationAttachmentPointClickEvent,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../../../../../editor';
 import assert from 'assert';
 

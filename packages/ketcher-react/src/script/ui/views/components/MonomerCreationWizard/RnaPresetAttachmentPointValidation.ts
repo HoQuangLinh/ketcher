@@ -1,4 +1,8 @@
-import { AtomLabel, AttachmentPointName, KetMonomerClass } from 'ketcher-core';
+import {
+  AtomLabel,
+  AttachmentPointName,
+  KetMonomerClass,
+} from '@hoquanglinh/ketcher-core';
 
 export type PhosphatePosition = '3' | '5';
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StereoFlag
+[@hoquanglinh/ketcher-core](../README.md) / StereoFlag
 
 # Enumeration: StereoFlag
 

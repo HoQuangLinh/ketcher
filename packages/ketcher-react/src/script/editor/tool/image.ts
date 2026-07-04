@@ -10,7 +10,7 @@ import {
   IMAGE_KEY,
   fromImageMove,
   fromImageResize,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { Tool } from './Tool';
 import type Editor from '../Editor';
 import { handleMovingPosibilityCursor } from '../utils';

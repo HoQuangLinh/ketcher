@@ -19,7 +19,7 @@ import {
   Entities,
   getRnaPresetPhosphatePosition,
   RnaPhosphatePosition,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { MonomerGroups } from 'src/constants';
 import { GroupBlock } from './GroupBlock';
 import {
@@ -84,7 +84,7 @@ import {
   getPhosphatePositionAvailability,
   isValidPresetName,
 } from 'helpers/rnaValidations';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import styles from './RnaEditorExpanded.module.less';
 
 type SequenceSelectionGroupNames = {

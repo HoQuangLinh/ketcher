@@ -1,5 +1,5 @@
 import { useAppContext } from 'src/hooks';
-import { fromBondFlipping, ketcherProvider } from 'ketcher-core';
+import { fromBondFlipping, ketcherProvider } from '@hoquanglinh/ketcher-core';
 
 export const useChangeBondDirection = (props) => {
   const { ketcherId } = useAppContext();

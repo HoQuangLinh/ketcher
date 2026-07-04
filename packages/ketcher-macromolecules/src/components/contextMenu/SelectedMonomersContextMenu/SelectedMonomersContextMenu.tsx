@@ -5,10 +5,10 @@ import {
   KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
   Icon,
   IconName,
-} from 'ketcher-react';
+} from '@hoquanglinh/ketcher-react';
 import { useAppSelector } from 'hooks';
 import { selectEditor } from 'state/common';
-import { BaseMonomer } from 'ketcher-core';
+import { BaseMonomer } from '@hoquanglinh/ketcher-core';
 import { ContextMenu } from 'components/contextMenu/ContextMenu';
 import {
   AMINO_ACID_MODIFICATION_MENU_ITEM_PREFIX,

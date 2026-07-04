@@ -16,7 +16,7 @@
 
 import initTmplLib, { initLib } from './init-lib';
 
-import { KetcherLogger, KetSerializer } from 'ketcher-core';
+import { KetcherLogger, KetSerializer } from '@hoquanglinh/ketcher-core';
 import { omit } from 'lodash/fp';
 import { openDialog } from '../modal';
 import { storage } from '../../storage-ext';

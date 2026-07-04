@@ -10,7 +10,7 @@ import {
   BaseMonomer,
   BaseSequenceItemRenderer,
   DeprecatedFlexModeOrSnakeModePolymerBondRenderer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { StyledMenu } from 'components/contextMenu/styles';
 import { CONTEXT_MENU_ID } from 'components/contextMenu/types';
 import { useAppDispatch, useAppSelector } from 'hooks';

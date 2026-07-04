@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SGroupForest
+[@hoquanglinh/ketcher-core](../README.md) / SGroupForest
 
 # Class: SGroupForest
 

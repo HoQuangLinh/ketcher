@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import type { Template } from '../template/TemplateTable';
-import type { Element } from 'ketcher-core';
+import type { Element } from '@hoquanglinh/ketcher-core';
 
 export enum AbbreviationType {
   Template = 'Template',

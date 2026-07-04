@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SimpleObjectAttributes
+[@hoquanglinh/ketcher-core](../README.md) / SimpleObjectAttributes
 
 # Interface: SimpleObjectAttributes
 

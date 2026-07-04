@@ -262,12 +262,12 @@ export default defineConfig({
       match: /\.sdf|\.ket/,
     }),
     replace({
-      include: '**/ketcher-react/src/**',
+      include: '**/packages/ketcher-react/src/**',
       preventAssignment: true,
       values: ketcherReactValues,
     }),
     replace({
-      include: '**/ketcher-macromolecules/src/**',
+      include: '**/packages/ketcher-macromolecules/src/**',
       preventAssignment: true,
       values: polymerEditorValues,
     }),
@@ -279,7 +279,7 @@ export default defineConfig({
       },
     }),
     replace({
-      include: '**/ketcher-core/src/**',
+      include: '**/packages/ketcher-core/src/**',
       preventAssignment: true,
       values: {
         require: 'await import',
@@ -314,42 +314,42 @@ export default defineConfig({
     alias: [
       {
         // HACK: to ignore dist/index.css, you can set any file as replacement
-        find: 'ketcher-react/dist/index.css',
+        find: '@hoquanglinh/ketcher-react/dist/index.css',
         replacement: resolve(
           __dirname,
           '../packages/ketcher-react/src/index.less',
         ),
       },
       {
-        find: 'ketcher-react',
+        find: '@hoquanglinh/ketcher-react',
         replacement: resolve(
           __dirname,
           '../packages/ketcher-react/src/index.tsx',
         ),
       },
       {
-        find: 'ketcher-core',
+        find: '@hoquanglinh/ketcher-core',
         replacement: resolve(
           __dirname,
           '../packages/ketcher-core/src/index.ts',
         ),
       },
       {
-        find: 'ketcher-standalone',
+        find: '@hoquanglinh/ketcher-standalone',
         replacement: resolve(
           __dirname,
           '../packages/ketcher-standalone/src/index.ts',
         ),
       },
       {
-        find: 'ketcher-macromolecules',
+        find: '@hoquanglinh/ketcher-macromolecules',
         replacement: resolve(
           __dirname,
           '../packages/ketcher-macromolecules/src/index.tsx',
         ),
       },
 
-      /** Web worker in ketcher-standalone */
+      /** Web worker in @hoquanglinh/ketcher-standalone */
       {
         find: 'web-worker:./../indigoWorker',
         replacement: './../indigoWorker?worker',

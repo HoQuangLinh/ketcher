@@ -1,4 +1,4 @@
-import { MonomerGroups, MonomerItemType } from 'ketcher-core';
+import { MonomerGroups, MonomerItemType } from '@hoquanglinh/ketcher-core';
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import { selectIsSequenceFirstsOnlyNucleotidesSelected } from 'state/rna-builder';

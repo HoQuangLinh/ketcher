@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / DearomatizeData
+[@hoquanglinh/ketcher-core](../README.md) / DearomatizeData
 
 # Interface: DearomatizeData
 

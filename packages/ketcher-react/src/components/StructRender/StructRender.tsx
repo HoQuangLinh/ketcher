@@ -19,7 +19,7 @@ import {
   MolSerializer,
   RenderStruct,
   Struct,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useEffect, useRef } from 'react';
 import { Container } from './styles';
 import type { IStructRenderProps } from './types';

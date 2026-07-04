@@ -25,7 +25,7 @@ import init, { type Config } from './script';
 import { type RefObject, useEffect, useRef } from 'react';
 import { type Root, createRoot } from 'react-dom/client';
 
-import type { Ketcher, StructService } from 'ketcher-core';
+import type { Ketcher, StructService } from '@hoquanglinh/ketcher-core';
 import classes from './Editor.module.less';
 import clsx from 'clsx';
 import { useResizeObserver } from './hooks';

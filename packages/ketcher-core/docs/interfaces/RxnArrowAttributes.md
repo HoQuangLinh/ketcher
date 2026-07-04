@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RxnArrowAttributes
+[@hoquanglinh/ketcher-core](../README.md) / RxnArrowAttributes
 
 # Interface: RxnArrowAttributes
 

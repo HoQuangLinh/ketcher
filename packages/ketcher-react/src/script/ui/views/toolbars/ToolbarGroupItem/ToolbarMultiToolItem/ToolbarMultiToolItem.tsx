@@ -34,7 +34,7 @@ import classes from './ToolbarMultiToolItem.module.less';
 import { usePortalOpening } from './usePortalOpening';
 import { usePortalStyle } from './usePortalStyle';
 import { getIconName, Icon } from 'components';
-import { SettingsManager } from 'ketcher-core';
+import { SettingsManager } from '@hoquanglinh/ketcher-core';
 
 interface ToolbarMultiToolItemProps {
   id: ToolbarItemVariant;

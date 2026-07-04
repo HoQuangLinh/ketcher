@@ -33,7 +33,7 @@ import {
   IRnaPreset,
   KetConnectionType,
   MonomerItemType,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 describe('getPreset function', () => {
   it('should return empty array if cannot return default nucteotides', () => {

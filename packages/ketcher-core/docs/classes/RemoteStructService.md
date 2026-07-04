@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RemoteStructService
+[@hoquanglinh/ketcher-core](../README.md) / RemoteStructService
 
 # Class: RemoteStructService
 

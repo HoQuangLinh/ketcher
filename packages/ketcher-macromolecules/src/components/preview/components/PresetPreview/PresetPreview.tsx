@@ -25,8 +25,8 @@ import {
 } from './PresetPreview.styles';
 import styled from '@emotion/styled';
 import { selectShowPreview } from 'state/common';
-import { IconName } from 'ketcher-react';
-import { KetMonomerClass, MonomerItemType } from 'ketcher-core';
+import { IconName } from '@hoquanglinh/ketcher-react';
+import { KetMonomerClass, MonomerItemType } from '@hoquanglinh/ketcher-core';
 import useIDTAliasesTextForPreset from '../../hooks/useIDTAliasesTextForPreset';
 import MonomerPreviewProperties from '../MonomerPreviewProperties/MonomerPreviewProperties';
 import { useAppSelector } from 'hooks';

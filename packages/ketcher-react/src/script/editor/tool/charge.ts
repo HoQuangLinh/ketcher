@@ -14,7 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { Atom, fromAtomsAttrs, FunctionalGroup } from 'ketcher-core';
+import {
+  Atom,
+  fromAtomsAttrs,
+  FunctionalGroup,
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import type { Tool } from './Tool';
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { OperationType } from 'ketcher-core';
+import { OperationType } from '@hoquanglinh/ketcher-core';
 
 type Position = {
   x: number;

@@ -16,7 +16,10 @@
 
 import { render, screen, fireEvent, within } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { AttachmentPointName, KetMonomerClass } from 'ketcher-core';
+import {
+  AttachmentPointName,
+  KetMonomerClass,
+} from '@hoquanglinh/ketcher-core';
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import type { ReactNode } from 'react';

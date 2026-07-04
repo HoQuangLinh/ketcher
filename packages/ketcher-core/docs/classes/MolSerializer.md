@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / MolSerializer
+[@hoquanglinh/ketcher-core](../README.md) / MolSerializer
 
 # Class: MolSerializer
 

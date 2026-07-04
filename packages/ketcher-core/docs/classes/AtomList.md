@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / AtomList
+[@hoquanglinh/ketcher-core](../README.md) / AtomList
 
 # Class: AtomList
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
-import { Struct, Peptide } from 'ketcher-core';
+import { Struct, Peptide } from '@hoquanglinh/ketcher-core';
 import { MonomerConnection } from './MonomerConnections';
 import { configureAppStore } from '../../../state/store';
 

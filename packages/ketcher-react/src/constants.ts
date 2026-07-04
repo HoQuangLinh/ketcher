@@ -17,7 +17,7 @@
 import {
   KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
   EditorClassName,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export const ketcherInitEventName = (ketcherId?: string) =>
   ketcherId ? `ketcher-init-${ketcherId}` : 'ketcher-init';

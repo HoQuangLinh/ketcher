@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { IconName } from 'ketcher-react';
+import { IconName } from '@hoquanglinh/ketcher-react';
 
 export interface ISummaryProps {
   groupName: string;

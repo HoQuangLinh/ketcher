@@ -2,7 +2,7 @@ import {
   isLibraryItemRnaPreset,
   LibraryItemDragState,
   ZoomTool,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import styles from './DragGhost.module.less';

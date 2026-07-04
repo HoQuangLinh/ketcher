@@ -1,6 +1,6 @@
 {
-  "name": "ketcher-macromolecules",
-  "version": "3.18.0-rc.1",
+  "name": "@hoquanglinh/ketcher-macromolecules",
+  "version": "3.18.0-rc.2",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
   "homepage": "http://lifescience.opensource.epam.com/ketcher",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epam/ketcher.git",
+    "url": "git+https://github.com/epam/ketcher.git",
     "directory": "packages/ketcher-macromolecules"
   },
   "keywords": [
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/epam/ketcher/issues"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.modern.js",
   "module": "dist/index.modern.js",
   "types": "dist/index.d.ts",
   "source": "src/index.tsx",
@@ -56,8 +56,8 @@
     "clsx": "^1.1.1",
     "d3": "^7.9.0",
     "file-saver": "^2.0.5",
-    "ketcher-core": "*",
-    "ketcher-react": "*",
+    "@hoquanglinh/ketcher-core": "3.18.0-rc.2",
+    "@hoquanglinh/ketcher-react": "3.18.0-rc.2",
     "lodash": "^4.18.1",
     "react-contexify": "^6.0.0",
     "react-dropzone": "^11.7.1",
@@ -118,16 +118,23 @@
     "typescript": "^6.0.3"
   },
   "files": [
-    "dist"
+    "dist/**/*.modern.js",
+    "dist/**/*.d.ts",
+    "dist/index.css"
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.modern.js",
-      "require": "./dist/index.js"
+      "default": "./dist/index.modern.js"
+    },
+    "./index.css": {
+      "import": "./dist/index.css",
+      "default": "./dist/index.css"
     },
     "./dist/index.css": {
       "import": "./dist/index.css",
-      "require": "./dist/index.css"
+      "default": "./dist/index.css"
     }
   },
   "sideEffects": [

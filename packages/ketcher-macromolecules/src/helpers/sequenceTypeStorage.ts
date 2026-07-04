@@ -1,4 +1,4 @@
-import { KetcherLogger, SequenceType } from 'ketcher-core';
+import { KetcherLogger, SequenceType } from '@hoquanglinh/ketcher-core';
 import { localStorageWrapper } from './localStorage';
 import { SEQUENCE_TYPE_STORAGE_KEY } from '../constants';
 

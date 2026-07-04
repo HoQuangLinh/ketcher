@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / CalculateCipData
+[@hoquanglinh/ketcher-core](../README.md) / CalculateCipData
 
 # Interface: CalculateCipData
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ChemicalMimeType
+[@hoquanglinh/ketcher-core](../README.md) / ChemicalMimeType
 
 # Enumeration: ChemicalMimeType
 

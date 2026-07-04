@@ -1,4 +1,8 @@
-import { AmbiguousMonomer, BaseMonomer, KetMonomerClass } from 'ketcher-core';
+import {
+  AmbiguousMonomer,
+  BaseMonomer,
+  KetMonomerClass,
+} from '@hoquanglinh/ketcher-core';
 
 const DNA_TEMPLATE_NAME_PART = 'thymine';
 const RNA_TEMPLATE_NAME_PART = 'uracil';

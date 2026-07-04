@@ -1,4 +1,8 @@
-import { findStereoAtoms, KetcherLogger, ketcherProvider } from 'ketcher-core';
+import {
+  findStereoAtoms,
+  KetcherLogger,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 import { useCallback, useRef } from 'react';
 import { useAppContext } from 'src/hooks';
 import type Editor from 'src/script/editor';

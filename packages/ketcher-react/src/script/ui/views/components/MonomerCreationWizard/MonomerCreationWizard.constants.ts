@@ -2,7 +2,7 @@ import {
   BILN_ALIAS_FORMAT_ERROR_MESSAGE,
   HELM_ALIAS_FORMAT_ERROR_MESSAGE,
   KetMonomerClass,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import type {
   MonomerTypeSelectItem,

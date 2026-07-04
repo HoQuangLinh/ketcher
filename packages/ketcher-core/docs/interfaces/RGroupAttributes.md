@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RGroupAttributes
+[@hoquanglinh/ketcher-core](../README.md) / RGroupAttributes
 
 # Interface: RGroupAttributes
 

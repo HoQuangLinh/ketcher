@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import { LoadingCircles } from './LoadingCircles';
 import styled from '@emotion/styled';
 

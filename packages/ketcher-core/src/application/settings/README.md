@@ -9,7 +9,7 @@ Centralized, platform-agnostic settings management for Ketcher.
 ### Basic Usage
 
 ```typescript
-import { SettingsService, LocalStorageAdapter } from 'ketcher-core';
+import { SettingsService, LocalStorageAdapter } from '@hoquanglinh/ketcher-core';
 
 // Initialize
 const settingsService = new SettingsService({
@@ -40,7 +40,7 @@ const unsubscribe = settingsService.subscribe((newSettings) => {
 ### React Hook Usage
 
 ```typescript
-import { useSettings } from 'ketcher-react';
+import { useSettings } from '@hoquanglinh/ketcher-react';
 
 function MyComponent() {
   const {
@@ -195,7 +195,7 @@ const service = new SettingsService({
 ### LocalStorageAdapter (Default)
 
 ```typescript
-import { LocalStorageAdapter } from 'ketcher-core';
+import { LocalStorageAdapter } from '@hoquanglinh/ketcher-core';
 
 const storage = new LocalStorageAdapter();
 ```
@@ -208,7 +208,7 @@ const storage = new LocalStorageAdapter();
 ### MemoryStorageAdapter
 
 ```typescript
-import { MemoryStorageAdapter } from 'ketcher-core';
+import { MemoryStorageAdapter } from '@hoquanglinh/ketcher-core';
 
 const storage = new MemoryStorageAdapter();
 ```
@@ -451,7 +451,7 @@ try {
 ### Unit Testing
 
 ```typescript
-import { SettingsService, MemoryStorageAdapter } from 'ketcher-core';
+import { SettingsService, MemoryStorageAdapter } from '@hoquanglinh/ketcher-core';
 
 describe('My tests', () => {
   let service: SettingsService;
@@ -655,7 +655,7 @@ settings/
 Run tests:
 
 ```bash
-# From ketcher-core
+# From @hoquanglinh/ketcher-core
 npm run test:unit
 
 # Specific test

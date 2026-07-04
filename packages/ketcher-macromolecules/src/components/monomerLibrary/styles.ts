@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import styled from '@emotion/styled';
-import { Input, Icon } from 'ketcher-react';
+import { Input, Icon } from '@hoquanglinh/ketcher-react';
 
 export const MONOMER_LIBRARY_WIDTH = '254px';
 export const MONOMER_HIDE_LIBRARY_BUTTON_WIDTH = '100px';

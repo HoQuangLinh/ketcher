@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RxnArrowMode
+[@hoquanglinh/ketcher-core](../README.md) / RxnArrowMode
 
 # Enumeration: RxnArrowMode
 

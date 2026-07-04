@@ -3,7 +3,7 @@ import {
   type ReStruct,
   Atom,
   isAttachmentBond,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export function isFlipDisabled(editor): boolean {
   const selection: { atoms: number[]; bonds: number[] } = editor.selection();

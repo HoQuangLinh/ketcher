@@ -3,7 +3,7 @@ import {
   KetcherAsyncEvents,
   KetcherLogger,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useCallback, useEffect, useState } from 'react';
 import { useAppSelector } from './stateHooks';
 import { selectKetcherId } from 'state/common';

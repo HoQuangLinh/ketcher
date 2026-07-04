@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / MolSerializerOptions
+[@hoquanglinh/ketcher-core](../README.md) / MolSerializerOptions
 
 # Interface: MolSerializerOptions
 

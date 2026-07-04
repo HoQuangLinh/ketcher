@@ -1,4 +1,4 @@
-import { IRnaLabeledPreset } from 'ketcher-core';
+import { IRnaLabeledPreset } from '@hoquanglinh/ketcher-core';
 import { localStorageWrapper } from './localStorage';
 import { CUSTOM_PRESETS } from '../constants';
 

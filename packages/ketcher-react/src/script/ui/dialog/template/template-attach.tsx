@@ -33,7 +33,11 @@ import styled from '@emotion/styled';
 import classes from './template-lib.module.less';
 import { css } from '@emotion/react';
 import { Button } from '@mui/material';
-import { type Editor, type Struct, ketcherProvider } from 'ketcher-core';
+import {
+  type Editor,
+  type Struct,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 
 interface AttachPoints {
   atomid: number;

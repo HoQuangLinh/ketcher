@@ -16,7 +16,7 @@ import {
   compareByTitleWithNaturalFirst,
   MonomerToAtomBond,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const getMonomersCode = (monomers: BaseMonomer[]) => {
   return monomers

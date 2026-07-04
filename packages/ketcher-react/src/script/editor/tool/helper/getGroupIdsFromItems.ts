@@ -1,4 +1,8 @@
-import { type Struct, Atom, mergeMapOfItemsToSet } from 'ketcher-core';
+import {
+  type Struct,
+  Atom,
+  mergeMapOfItemsToSet,
+} from '@hoquanglinh/ketcher-core';
 
 type Items = {
   atoms?: number[];

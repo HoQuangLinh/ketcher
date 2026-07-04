@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RecognizeResult
+[@hoquanglinh/ketcher-core](../README.md) / RecognizeResult
 
 # Interface: RecognizeResult
 

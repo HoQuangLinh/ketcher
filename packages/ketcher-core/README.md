@@ -1,7 +1,7 @@
-# ketcher-core
+# @hoquanglinh/ketcher-core
 
-[![npm version](https://img.shields.io/npm/v/ketcher-core)](https://www.npmjs.com/package/ketcher-core)
-[![Downloads](https://img.shields.io/npm/dm/ketcher-core)](https://www.npmjs.com/package/ketcher-core)
+[![npm version](https://img.shields.io/npm/v/@hoquanglinh/ketcher-core)](https://www.npmjs.com/package/@hoquanglinh/ketcher-core)
+[![Downloads](https://img.shields.io/npm/dm/@hoquanglinh/ketcher-core)](https://www.npmjs.com/package/@hoquanglinh/ketcher-core)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Copyright (c) 2021 [EPAM Systems, Inc.](https://www.epam.com/)
@@ -10,24 +10,24 @@ Ketcher is an open-source web-based chemical structure editor incorporating high
 
 For more details please look at the following [link](https://github.com/epam/ketcher/blob/master/README.md).
 
-The ketcher-core package serves as the entry point to Ketcher core functionality including domain, shared services, functions and interface declarations. It is intended to be paired with the main Ketcher package, which is shipped as [ketcher-react](https://www.npmjs.com/package/ketcher-react) to npm.
+The @hoquanglinh/ketcher-core package serves as the entry point to Ketcher core functionality including domain, shared services, functions and interface declarations. It is intended to be paired with the main Ketcher package, which is shipped as [@hoquanglinh/ketcher-react](https://www.npmjs.com/package/@hoquanglinh/ketcher-react) to npm.
 
 ## Installation
 
 ```sh
-npm install --save ketcher-core
+npm install --save @hoquanglinh/ketcher-core
 ```
 
 or [Yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add ketcher-core
+yarn add @hoquanglinh/ketcher-core
 ```
 
 ## Usage
 
 ```js
-import { RemoteStructServiceProvider } from 'ketcher-core'
+import { RemoteStructServiceProvider } from '@hoquanglinh/ketcher-core'
 
 const structServiceProvider = new RemoteStructServiceProvider(
   process.env.REACT_APP_API_PATH!,

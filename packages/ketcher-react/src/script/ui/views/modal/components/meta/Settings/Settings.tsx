@@ -29,7 +29,7 @@ import OpenButton from '../../../../../component/view/openbutton';
 import { SaveButton } from '../../../../../component/view/savebutton';
 import Select from '../../../../../component/form/Select';
 import Accordion from './Accordion';
-import { type StructService, KetcherLogger } from 'ketcher-core';
+import { type StructService, KetcherLogger } from '@hoquanglinh/ketcher-core';
 import SystemFonts from '../../../../../component/form/systemfonts';
 import classes from './Settings.module.less';
 import { connect } from 'react-redux';

@@ -325,7 +325,7 @@ export class BondRenderer extends BaseRenderer {
   }
 
   getSelectionPoints() {
-    // please refer to: ketcher-core/docs/data/hover_selection_1.png
+    // please refer to: @hoquanglinh/ketcher-core/docs/data/hover_selection_1.png
     const editor = provideEditorInstance();
     const viewModel = editor.viewModel;
     const halfEdges = viewModel.bondsToHalfEdges.get(this.bond);
@@ -348,7 +348,7 @@ export class BondRenderer extends BaseRenderer {
     // image on the screen is drawn, it may be different e.g. if the
     // bond is connected to an atom with a label as opposed
     // to when it is connected to a Carbon atom w/o a label
-    // please refer to: ketcher-core/docs/data/hover_selection_2.png
+    // please refer to: @hoquanglinh/ketcher-core/docs/data/hover_selection_2.png
     let halfEdgeStart = Coordinates.modelToCanvas(firstHalfEdge.position);
     let halfEdgeEnd = Coordinates.modelToCanvas(secondHalfEdge.position);
 
@@ -406,7 +406,7 @@ export class BondRenderer extends BaseRenderer {
     // and two for each line that together form the selection contour
     // the padded values are for the curve points and the rest of
     // the values are for drawing the lines
-    // please refer to: ketcher-core/docs/data/hover_selection_3.png
+    // please refer to: @hoquanglinh/ketcher-core/docs/data/hover_selection_3.png
     const startPoint = contourStart.add(new Vec2(addEnd, 0));
     const endPoint = contourEnd.add(new Vec2(addStart, 0));
     const padStartPoint = contourPaddedStart.add(new Vec2(addEnd, 0));

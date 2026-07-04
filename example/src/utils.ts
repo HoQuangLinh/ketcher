@@ -1,7 +1,7 @@
 import {
   RemoteStructServiceProvider,
   StructServiceProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export async function getStructServiceProvider() {
   let structServiceProvider: StructServiceProvider =
@@ -13,7 +13,7 @@ export async function getStructServiceProvider() {
     const {
       StandaloneStructServiceProvider,
       // eslint-disable-next-line @typescript-eslint/no-var-requires
-    } = require('ketcher-standalone');
+    } = require('@hoquanglinh/ketcher-standalone');
     structServiceProvider =
       new StandaloneStructServiceProvider() as StructServiceProvider;
   }

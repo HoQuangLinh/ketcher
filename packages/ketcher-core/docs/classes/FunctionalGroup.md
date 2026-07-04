@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / FunctionalGroup
+[@hoquanglinh/ketcher-core](../README.md) / FunctionalGroup
 
 # Class: FunctionalGroup
 

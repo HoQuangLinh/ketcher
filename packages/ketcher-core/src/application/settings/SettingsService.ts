@@ -39,7 +39,7 @@ const DEFAULT_STORAGE_KEY = 'ketcher-opts';
  *    which creates multiple Ketcher instances and multiple SettingsService instances.
  *    The second instance overwrites window.ketcher, causing settings sync issues.
  *
- * 2. Redux state in ketcher-react stores settings separately from SettingsService.
+ * 2. Redux state in @hoquanglinh/ketcher-react stores settings separately from SettingsService.
  *    When Settings dialog opens, it reads from Redux state which may be out of sync.
  *    The saveSettings() action uses window.ketcher.settingsService, but if multiple
  *    instances exist, they don't share subscribers or in-memory state.

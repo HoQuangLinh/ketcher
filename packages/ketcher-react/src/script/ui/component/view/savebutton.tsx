@@ -17,7 +17,7 @@ import {
   type GenerateImageOptions,
   KetcherLogger,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { saveAs } from 'file-saver';
 
 import type { KeyboardEvent, MouseEvent, PropsWithChildren } from 'react';

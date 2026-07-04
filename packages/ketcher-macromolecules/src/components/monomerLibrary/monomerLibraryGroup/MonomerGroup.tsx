@@ -24,7 +24,7 @@ import {
   MonomerItemType,
   MonomerOrAmbiguousType,
   isAmbiguousMonomerLibraryItem,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useAppDispatch, useAppSelector } from 'hooks';
 import { selectEditor, showPreview } from 'state/common';
 import { selectGroupItemValidations } from 'state/rna-builder';
@@ -32,7 +32,7 @@ import { PreviewStyle, PreviewType } from 'state';
 import {
   calculateAmbiguousMonomerPreviewTop,
   calculateMonomerPreviewTop,
-} from 'ketcher-react';
+} from '@hoquanglinh/ketcher-react';
 import { needSkipPreviewForElement } from 'components/preview/helpers';
 
 const MonomerGroup = ({

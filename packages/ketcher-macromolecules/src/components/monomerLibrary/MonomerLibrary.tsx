@@ -39,7 +39,7 @@ import {
   MonomerLibrarySearchIcon,
   MonomerLibraryToggle,
 } from './styles';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 
 const COPY = '_Copy';
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / LayoutResult
+[@hoquanglinh/ketcher-core](../README.md) / LayoutResult
 
 # Interface: LayoutResult
 

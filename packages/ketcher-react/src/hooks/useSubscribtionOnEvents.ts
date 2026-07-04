@@ -19,7 +19,7 @@ import {
   type Ketcher,
   KetcherAsyncEvents,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useEffect } from 'react';
 import { useAppContext } from './useAppContext';
 import { ketcherInitEventName } from '../constants';

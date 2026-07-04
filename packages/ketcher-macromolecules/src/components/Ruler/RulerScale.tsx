@@ -1,6 +1,6 @@
 import { ZoomTransform } from 'd3';
 import { memo, useMemo, useRef } from 'react';
-import { LayoutMode } from 'ketcher-core';
+import { LayoutMode } from '@hoquanglinh/ketcher-core';
 
 import styles from './RulerArea.module.less';
 import {

@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import styled from '@emotion/styled';
-import { Accordion, Button } from 'ketcher-react';
+import { Accordion, Button } from '@hoquanglinh/ketcher-react';
 import { Tab } from '@mui/material';
 import { ActionButton } from 'components/shared/actionButton';
 

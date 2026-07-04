@@ -4,7 +4,7 @@ import {
   type RxnArrowMode,
   MULTITAIL_ARROW_KEY,
   MULTITAIL_ARROW_TOOL_NAME,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type {
   ArrowAddTool,
   ArrowMoveTool,

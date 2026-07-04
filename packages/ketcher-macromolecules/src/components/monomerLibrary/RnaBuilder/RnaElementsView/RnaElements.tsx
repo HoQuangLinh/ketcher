@@ -20,7 +20,7 @@ import {
   IRnaPreset,
   isAmbiguousMonomerLibraryItem,
   MonomerOrAmbiguousType,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { RnaAccordionContainer } from './styles';
 import { useDispatch } from 'react-redux';

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReFrag
+[@hoquanglinh/ketcher-core](../README.md) / ReFrag
 
 # Class: ReFrag
 

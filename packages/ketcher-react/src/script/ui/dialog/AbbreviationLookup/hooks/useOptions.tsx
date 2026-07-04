@@ -17,7 +17,7 @@
 import { useMemo } from 'react';
 import { uniqBy } from 'lodash';
 import { useSelector } from 'react-redux';
-import { Elements } from 'ketcher-core';
+import { Elements } from '@hoquanglinh/ketcher-core';
 
 import type { Template } from '../../template/TemplateTable';
 import { functionalGroupsSelector } from '../../../state/functionalGroups/selectors';

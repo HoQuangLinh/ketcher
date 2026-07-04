@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SdfSerializer
+[@hoquanglinh/ketcher-core](../README.md) / SdfSerializer
 
 # Class: SdfSerializer
 

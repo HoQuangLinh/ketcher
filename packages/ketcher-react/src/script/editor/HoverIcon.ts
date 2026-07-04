@@ -4,7 +4,7 @@ import {
   Vec2,
   CoordinateTransformation,
   getOptionsWithConvertedUnits,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from './Editor';
 
 const HOVER_ICON_OPACITY = 0.7;

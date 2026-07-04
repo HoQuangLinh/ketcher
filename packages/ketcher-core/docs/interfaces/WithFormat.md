@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / WithFormat
+[@hoquanglinh/ketcher-core](../README.md) / WithFormat
 
 # Interface: WithFormat
 

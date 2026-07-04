@@ -6,7 +6,7 @@ import {
   AbbreviationType,
 } from './AbbreviationLookup.types';
 import type { Template } from '../template/TemplateTable';
-import type { Element } from 'ketcher-core';
+import type { Element } from '@hoquanglinh/ketcher-core';
 import { KETCHER_ROOT_NODE_CLASS_NAME } from 'src/constants';
 
 export const createGenericOption = (

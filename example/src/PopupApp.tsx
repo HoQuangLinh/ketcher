@@ -1,9 +1,9 @@
 import { StrictMode, useEffect, useState } from 'react';
-import { Editor, InfoModal } from 'ketcher-react';
+import { Editor, InfoModal } from '@hoquanglinh/ketcher-react';
 import { Dialog } from '@mui/material';
-import { Ketcher, StructServiceProvider } from 'ketcher-core';
+import { Ketcher, StructServiceProvider } from '@hoquanglinh/ketcher-core';
 
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/dist/index.css';
 
 import { getStructServiceProvider } from './utils';
 import {

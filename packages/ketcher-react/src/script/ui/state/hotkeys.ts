@@ -32,7 +32,7 @@ import {
   keyNorm,
   initHotKeys,
   getStructStringFromClipboardData,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { debounce, isEqual } from 'lodash/fp';
 import { load, onAction, removeStructAction } from './shared';
 

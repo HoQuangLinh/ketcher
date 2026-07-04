@@ -16,7 +16,7 @@
 
 import { ThemeOptions as MuiThemeOptions } from '@mui/material/styles';
 import { EditorTheme } from '.';
-import { MonomerColorScheme } from 'ketcher-core';
+import { MonomerColorScheme } from '@hoquanglinh/ketcher-core';
 
 const monomerColors: Record<string, MonomerColorScheme> = {
   colorA: { regular: '#5ADC11', hover: '#4FC218' },

@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import styled from '@emotion/styled';
-import { Button, Input } from 'ketcher-react';
+import { Button, Input } from '@hoquanglinh/ketcher-react';
 
 export const RnaEditorExpandedContainer = styled.div((props) => ({
   display: 'flex',

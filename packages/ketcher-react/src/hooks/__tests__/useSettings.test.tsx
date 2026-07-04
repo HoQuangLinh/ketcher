@@ -20,7 +20,7 @@ import { renderHook, act } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import { useSettings } from '../useSettings';
-import { getDefaultSettings, ketcherProvider } from 'ketcher-core';
+import { getDefaultSettings, ketcherProvider } from '@hoquanglinh/ketcher-core';
 
 const TEST_KETCHER_ID = 'use-settings-test';
 

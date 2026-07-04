@@ -34,7 +34,7 @@ import {
   AtomAttr,
   MonomerMicromolecule,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import { getGroupIdsFromItemArrays } from './helper/getGroupIdsFromItems';
 import { MODES } from 'src/constants';

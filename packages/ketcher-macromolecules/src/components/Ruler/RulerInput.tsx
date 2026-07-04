@@ -1,6 +1,6 @@
 import { ChangeEvent, KeyboardEvent, memo, useRef, useState } from 'react';
 import clsx from 'clsx';
-import { LayoutMode } from 'ketcher-core';
+import { LayoutMode } from '@hoquanglinh/ketcher-core';
 
 import useTranslateAlongXAxis from './useTranslateAlongXAxis';
 

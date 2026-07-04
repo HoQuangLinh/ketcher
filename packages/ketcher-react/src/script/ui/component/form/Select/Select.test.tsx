@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import Select from './Select';
 
 jest.mock(
-  'ketcher-core',
+  '@hoquanglinh/ketcher-core',
   () => ({
     IMAGE_KEY: 'image',
     MULTITAIL_ARROW_TOOL_NAME: 'multitail',

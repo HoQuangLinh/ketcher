@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ConvertResult
+[@hoquanglinh/ketcher-core](../README.md) / ConvertResult
 
 # Interface: ConvertResult
 

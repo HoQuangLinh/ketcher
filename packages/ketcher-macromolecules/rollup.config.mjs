@@ -47,20 +47,12 @@ export const valuesToReplace = {
 
 const config = {
   input: pkg.source,
-  output: [
-    {
-      file: pkg.main,
-      exports: 'named',
-      format: 'cjs',
-      banner: `require('./index.css');`,
-    },
-    {
-      file: pkg.module,
-      exports: 'named',
-      format: 'es',
-      banner: `import './index.css';`,
-    },
-  ],
+  output: {
+    file: pkg.module,
+    exports: 'named',
+    format: 'es',
+    banner: `import './index.css';`,
+  },
   plugins: [
     del({
       targets: 'dist/*',
@@ -70,7 +62,7 @@ const config = {
       plugins: [autoprefixer({ grid: 'autoplace' })],
       extract: path.resolve('dist/index.css'),
       minimize: isProduction,
-      sourceMap: true,
+      sourceMap: false,
       include: includePattern,
     }),
     asPlugin(svgrPlugin({ include: includePattern })),
@@ -81,6 +73,9 @@ const config = {
     json(),
     typescript({
       tsconfigOverride: {
+        compilerOptions: {
+          ignoreDeprecations: '6.0',
+        },
         exclude: ['*.test.ts'],
       },
     }),

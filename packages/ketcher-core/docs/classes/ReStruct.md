@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReStruct
+[@hoquanglinh/ketcher-core](../README.md) / ReStruct
 
 # Class: ReStruct
 

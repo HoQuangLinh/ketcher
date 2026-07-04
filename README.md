@@ -1,4 +1,4 @@
-# Ketcher [![npm version](https://img.shields.io/npm/v/ketcher-react)](https://www.npmjs.com/package/ketcher-react) [![Downloads](https://img.shields.io/npm/dm/ketcher-react)](https://www.npmjs.com/package/ketcher-react) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Ketcher [![npm version](https://img.shields.io/npm/v/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-react) [![Downloads](https://img.shields.io/npm/dm/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-react) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Ketcher is an open-source web-based chemical structure editor incorporating high performance, good portability, light weight, and ability to easily integrate into a custom web-application. Ketcher is designed for chemists, laboratory scientists and technicians who draw structures and reactions.
 
@@ -36,21 +36,21 @@ Ketcher is an open-source web-based chemical structure editor incorporating high
 At this moment Ketcher can be embedded into your application in two ways:
 
 - as ready-to-run application (to find desired version please look at Assets block of [releases](https://github.com/epam/ketcher/releases)). The application can be injected as IFrame or a separate page.
-- as a [react component library](https://www.npmjs.com/package/ketcher-react)
+- as a [react component library](https://www.npmjs.com/package/@hoquanglinh/ketcher-react)
 
 ### Installation
 
 ```bash
-npm install ketcher-core ketcher-react
+npm install @hoquanglinh/ketcher-core @hoquanglinh/ketcher-react
 ```
 
 ### Basic Setup
 
 ```javascript
-import { Editor } from 'ketcher-react';
-import { StandaloneStructServiceProvider } from 'ketcher-standalone';
+import { Editor } from '@hoquanglinh/ketcher-react/next';
+import { StandaloneStructServiceProvider } from '@hoquanglinh/ketcher-standalone';
 
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/index.css';
 
 const structServiceProvider = new StandaloneStructServiceProvider();
 
@@ -82,10 +82,10 @@ You can find the instruction for service installation
 
 | Project                                                                                               | Status                                                                                                                      | Description                                                                       |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [ketcher-core](https://github.com/epam/ketcher/tree/master/packages/ketcher-core)                     | [![npm version](https://badge.fury.io/js/ketcher-core.svg)](https://www.npmjs.com/package/ketcher-core)                     | Core functionality: domain, shared services, functions and interface declarations |
-| [ketcher-standalone](https://github.com/epam/ketcher/tree/master/packages/ketcher-standalone)         | [![npm version](https://badge.fury.io/js/ketcher-standalone.svg)](https://www.npmjs.com/package/ketcher-standalone)         | Contains only the functionality necessary to start Ketcher in standalone mode     |
-| [ketcher-react](https://github.com/epam/ketcher/tree/master/packages/ketcher-react)                   | [![npm version](https://badge.fury.io/js/ketcher-react.svg)](https://www.npmjs.com/package/ketcher-react)                   | Package contains only the functionality necessary to define components.           |
-| [ketcher-macromolecules](https://github.com/epam/ketcher/tree/master/packages/ketcher-macromolecules) | [![npm version](https://badge.fury.io/js/ketcher-macromolecules.svg)](https://www.npmjs.com/package/ketcher-macromolecules) | Package contains the macromolecules editor functionality and UI components        |
+| [@hoquanglinh/ketcher-core](https://github.com/epam/ketcher/tree/master/packages/ketcher-core)                     | [![npm version](https://badge.fury.io/js/@hoquanglinh/ketcher-core.svg)](https://www.npmjs.com/package/@hoquanglinh/ketcher-core)                     | Core functionality: domain, shared services, functions and interface declarations |
+| [@hoquanglinh/ketcher-standalone](https://github.com/epam/ketcher/tree/master/packages/ketcher-standalone)         | [![npm version](https://badge.fury.io/js/@hoquanglinh/ketcher-standalone.svg)](https://www.npmjs.com/package/@hoquanglinh/ketcher-standalone)         | Contains only the functionality necessary to start Ketcher in standalone mode     |
+| [@hoquanglinh/ketcher-react](https://github.com/epam/ketcher/tree/master/packages/ketcher-react)                   | [![npm version](https://badge.fury.io/js/@hoquanglinh/ketcher-react.svg)](https://www.npmjs.com/package/@hoquanglinh/ketcher-react)                   | Package contains only the functionality necessary to define components.           |
+| [@hoquanglinh/ketcher-macromolecules](https://github.com/epam/ketcher/tree/master/packages/ketcher-macromolecules) | [![npm version](https://badge.fury.io/js/@hoquanglinh/ketcher-macromolecules.svg)](https://www.npmjs.com/package/@hoquanglinh/ketcher-macromolecules) | Package contains the macromolecules editor functionality and UI components        |
 
 ## 3D Viewer
 
@@ -98,7 +98,7 @@ The last checked version - [0.12.0](https://www.npmjs.com/package/miew-react).
 Starting with version 3.0, Ketcher supports a new control in the top toolbar that allows switching to macromolecules editing mode. If you prefer having only small molecules editing mode available, you can remove the mode switcher from the toolbar by passing `disableMacromoleculesEditor` property to the `Editor` component.
 
 ```js
-import { Editor } from 'ketcher-react';
+import { Editor } from '@hoquanglinh/ketcher-react';
 
 const App = () => {
   return (
@@ -109,6 +109,9 @@ const App = () => {
   );
 };
 ```
+
+For a Next.js client that only needs small molecules mode, import `Editor` from
+`@hoquanglinh/ketcher-react/next` instead.
 
 Please refer to the `example/src/App.tsx` file for a complete example of how to integrate Ketcher editor into your application.
 
@@ -903,8 +906,8 @@ The `Editor` component is the main React wrapper for Ketcher.
 **Import:**
 
 ```typescript
-import { Editor } from 'ketcher-react';
-import 'ketcher-react/dist/index.css';
+import { Editor } from '@hoquanglinh/ketcher-react/next';
+import '@hoquanglinh/ketcher-react/index.css';
 ```
 
 **Props:**
@@ -951,7 +954,7 @@ type ButtonsConfig = {
 ```
 
 **Button Names:** `'clear'`, `'open'`, `'save'`, `'undo'`, `'redo'`, `'cut'`, `'copy'`, `'paste'`, `'zoom-in'`, `'zoom-out'`, `'layout'`, `'clean'`, `'arom'`, `'dearom'`, `'cip'`, `'check'`, `'analyse'`, `'recognize'`, `'miew'`, `'settings'`, `'help'`, `'about'`, etc.
-(See ketcher-react/src/script/ui/buttonsConfig.ts in the repo for an up-to-date list.)
+(See @hoquanglinh/ketcher-react/src/script/ui/buttonsConfig.ts in the repo for an up-to-date list.)
 
 
 **Example:**
@@ -1182,7 +1185,7 @@ Ketcher uses a service provider pattern for chemical operations. Two implementat
 
 Uses **Indigo Service** (REST API) for server-side chemical operations.
 
-**Location:** `ketcher-core`
+**Location:** `@hoquanglinh/ketcher-core`
 
 **Constructor:**
 
@@ -1197,7 +1200,7 @@ constructor(
 **Example:**
 
 ```javascript
-import { RemoteStructServiceProvider } from 'ketcher-core';
+import { RemoteStructServiceProvider } from '@hoquanglinh/ketcher-core';
 
 const provider = new RemoteStructServiceProvider(
   'http://localhost:8002',
@@ -1232,7 +1235,7 @@ const provider = new RemoteStructServiceProvider(
 
 Uses **Indigo WASM** (client-side) for chemical operations without server dependency.
 
-**Location:** `ketcher-standalone`
+**Location:** `@hoquanglinh/ketcher-standalone`
 
 **Constructor:**
 
@@ -1243,7 +1246,7 @@ constructor()
 **Example:**
 
 ```javascript
-import { StandaloneStructServiceProvider } from 'ketcher-standalone';
+import { StandaloneStructServiceProvider } from '@hoquanglinh/ketcher-standalone';
 
 const provider = new StandaloneStructServiceProvider();
 ```

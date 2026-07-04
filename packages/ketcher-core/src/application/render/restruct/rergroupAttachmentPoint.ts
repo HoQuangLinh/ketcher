@@ -263,7 +263,7 @@ class ReRGroupAttachmentPoint extends ReObject {
       middleMostLeftPadPoint,
     ] = scaledOutlinePoints;
 
-    // Docs: ketcher-core/docs/data/hover_selection_rgroup_attachment_point.png
+    // Docs: @hoquanglinh/ketcher-core/docs/data/hover_selection_rgroup_attachment_point.png
     const pathString = `
       M ${topLeftPoint.x} ${topLeftPoint.y}
       L ${topRightPoint.x} ${topRightPoint.y}

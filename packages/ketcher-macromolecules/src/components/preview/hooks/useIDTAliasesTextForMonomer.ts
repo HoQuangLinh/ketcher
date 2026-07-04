@@ -1,4 +1,7 @@
-import { AttachmentPointsToBonds, IKetIdtAliases } from 'ketcher-core';
+import {
+  AttachmentPointsToBonds,
+  IKetIdtAliases,
+} from '@hoquanglinh/ketcher-core';
 import { useMemo } from 'react';
 
 import { removeSlashesFromIdtAlias } from 'helpers';

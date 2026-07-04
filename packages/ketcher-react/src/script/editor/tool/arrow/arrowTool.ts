@@ -1,5 +1,5 @@
 import type Editor from '../../Editor';
-import { type Vec2, CoordinateTransformation } from 'ketcher-core';
+import { type Vec2, CoordinateTransformation } from '@hoquanglinh/ketcher-core';
 
 export abstract class ArrowTool {
   // eslint-disable-next-line no-useless-constructor

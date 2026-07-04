@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import styled from '@emotion/styled';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 
 export const GroupBlockContainer = styled.div<{
   selected?: boolean;

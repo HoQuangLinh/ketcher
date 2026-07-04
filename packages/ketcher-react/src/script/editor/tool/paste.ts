@@ -27,7 +27,7 @@ import {
   Vec2,
   vectorUtils,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import { dropAndMerge } from './helper/dropAndMerge';
 import { getGroupIdsFromItemArrays } from './helper/getGroupIdsFromItems';

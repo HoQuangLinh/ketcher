@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Point
+[@hoquanglinh/ketcher-core](../README.md) / Point
 
 # Interface: Point
 

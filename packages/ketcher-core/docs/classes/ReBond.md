@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReBond
+[@hoquanglinh/ketcher-core](../README.md) / ReBond
 
 # Class: ReBond
 

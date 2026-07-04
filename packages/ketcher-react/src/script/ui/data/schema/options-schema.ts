@@ -20,7 +20,7 @@ import {
   ShowHydrogenLabels,
   ShowHydrogenLabelNames,
   defaultBondThickness,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { type Schema, Validator } from 'jsonschema';
 
 type ExtendedSchema = Schema & {

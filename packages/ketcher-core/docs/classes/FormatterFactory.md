@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / FormatterFactory
+[@hoquanglinh/ketcher-core](../README.md) / FormatterFactory
 
 # Class: FormatterFactory
 

@@ -84,7 +84,7 @@ import {
   Visel,
   paperPathFromSVGElement,
   fromFragmentDeletion,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   DOMSubscription,
   PipelineSubscription,

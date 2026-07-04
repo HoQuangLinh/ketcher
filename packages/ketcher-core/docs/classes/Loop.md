@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Loop
+[@hoquanglinh/ketcher-core](../README.md) / Loop
 
 # Class: Loop
 

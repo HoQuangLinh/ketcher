@@ -17,7 +17,7 @@
 import type { BaseCallProps, BaseProps } from '../../../modal.types';
 import classes from './RemoveFG.module.less';
 import { useAppContext } from '../../../../../../../hooks';
-import { fromSgroupDeletion, ketcherProvider } from 'ketcher-core';
+import { fromSgroupDeletion, ketcherProvider } from '@hoquanglinh/ketcher-core';
 
 interface RemoveFGProps extends BaseProps {
   fgIds: any;

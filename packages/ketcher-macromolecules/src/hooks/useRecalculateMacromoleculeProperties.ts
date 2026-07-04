@@ -1,4 +1,4 @@
-import { IndigoProvider } from 'ketcher-react';
+import { IndigoProvider } from '@hoquanglinh/ketcher-react';
 import {
   ChainsCollection,
   Chain,
@@ -8,7 +8,7 @@ import {
   notifyRequestCompleted,
   Struct,
   StructService,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   molarMeasurementUnitToNumber,
   selectEditor,

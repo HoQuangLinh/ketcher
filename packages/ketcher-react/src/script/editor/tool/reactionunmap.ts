@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { Action, fromAtomsAttrs } from 'ketcher-core';
+import { Action, fromAtomsAttrs } from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import type { Tool } from './Tool';
 

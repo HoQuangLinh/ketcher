@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { Elements, FunctionalGroup } from 'ketcher-core';
+import { Elements, FunctionalGroup } from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import type { Tool } from './Tool';
 

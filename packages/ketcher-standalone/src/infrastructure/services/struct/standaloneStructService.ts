@@ -69,7 +69,7 @@ import {
   CalculateMacromoleculePropertiesData,
   CalculateMacromoleculePropertiesResult,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import EventEmitter from 'events';
 import {

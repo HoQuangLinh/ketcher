@@ -2,7 +2,7 @@ import {
   CoordinateTransformation,
   Vec2,
   fromMultitailArrowCreation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { ArrowAddTool } from './arrow.types';
 import type Editor from '../../Editor';
 

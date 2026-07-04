@@ -6,7 +6,7 @@ import {
   type AttachmentPointName,
   type RnaPresetComponentKey,
   KetMonomerClass,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   type ChangeEvent,
   Fragment,

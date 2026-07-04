@@ -32,7 +32,7 @@ import {
   MONOMER_LIBRARY_PEPTIDES,
   MonomerGroups,
 } from '../../../constants';
-import { MonomerItemType } from 'ketcher-core';
+import { MonomerItemType } from '@hoquanglinh/ketcher-core';
 import { selectEditorActiveTool } from 'state/common';
 import {
   selectFilteredPresets,

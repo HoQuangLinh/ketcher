@@ -16,7 +16,7 @@
 
 import styled from '@emotion/styled';
 import { useEffect, useState } from 'react';
-import { shortcutStr } from 'ketcher-core';
+import { shortcutStr } from '@hoquanglinh/ketcher-core';
 import { TopToolbarIconButton } from './TopToolbarIconButton';
 
 interface SystemControlsProps {

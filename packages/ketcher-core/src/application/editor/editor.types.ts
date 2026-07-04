@@ -91,7 +91,7 @@ export interface Editor {
     options?: { resizeCanvas: boolean },
   ) => void;
   render: Render;
-  // supposed to be RotateController from 'ketcher-react' package
+  // supposed to be RotateController from '@hoquanglinh/ketcher-react' package
   rotateController: any;
   macromoleculeConvertionError: string | null | undefined;
   setMacromoleculeConvertionError: (errorMessage: string) => void;

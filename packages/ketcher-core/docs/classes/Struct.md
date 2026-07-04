@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Struct
+[@hoquanglinh/ketcher-core](../README.md) / Struct
 
 # Class: Struct
 

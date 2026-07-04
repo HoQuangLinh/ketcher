@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import type { GenGroup as GenGroupType } from 'ketcher-core';
+import type { GenGroup as GenGroupType } from '@hoquanglinh/ketcher-core';
 import { GenSet } from './GenSet';
 import { isGenericGroup } from '../../helpers';
 import styles from './GenGroup.module.less';

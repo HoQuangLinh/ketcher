@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { ElementColor, Elements, shortcutStr } from 'ketcher-core';
+import { ElementColor, Elements, shortcutStr } from '@hoquanglinh/ketcher-core';
 import { atomCuts } from '../../../../action/atoms';
 
 import Atom from '../../../../component/view/Atom';

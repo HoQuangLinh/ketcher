@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / HighlightAttributes
+[@hoquanglinh/ketcher-core](../README.md) / HighlightAttributes
 
 # Interface: HighlightAttributes
 

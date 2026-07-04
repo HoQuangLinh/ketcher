@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { MolSerializer } from 'ketcher-core';
+import { MolSerializer } from '@hoquanglinh/ketcher-core';
 import isHidden from './isHidden';
 
 const debugObj = {

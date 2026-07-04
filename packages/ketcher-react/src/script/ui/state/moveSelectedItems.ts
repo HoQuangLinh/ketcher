@@ -5,7 +5,7 @@ import {
   Vec2,
   fromMultipleMove,
   Scale,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowRight' | 'ArrowLeft';
 const destinationVectorMapping: { [key in ArrowKey]: Vec2 } = {

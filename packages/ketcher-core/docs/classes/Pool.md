@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Pool
+[@hoquanglinh/ketcher-core](../README.md) / Pool
 
 # Class: Pool<TValue\>
 

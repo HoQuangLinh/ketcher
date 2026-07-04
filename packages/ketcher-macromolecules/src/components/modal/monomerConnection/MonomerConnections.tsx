@@ -16,7 +16,7 @@ import {
   LeavingGroup,
   UsageInMacromolecule,
   AttachmentPointName,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import hydrateLeavingGroup from 'helpers/hydrateLeavingGroup';
 import { getConnectedAttachmentPoints } from 'helpers';
 import MonomerOverview from 'components/shared/ConnectionOverview/components/MonomerOverview/MonomerOverview';

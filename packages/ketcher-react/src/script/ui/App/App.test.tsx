@@ -68,7 +68,7 @@ jest.mock('../state/templates/init-lib', () => ({
   initLib: jest.fn(() => ({ type: 'INIT_LIB' })),
 }));
 
-jest.mock('ketcher-core', () => ({
+jest.mock('@hoquanglinh/ketcher-core', () => ({
   ketcherProvider: {
     removeKetcherInstance: (...args: unknown[]) =>
       mockRemoveKetcherInstance(...args),

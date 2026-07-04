@@ -4,7 +4,7 @@ import type {
   AtomLabel,
   AttachmentPointClickData,
   AttachmentPointName,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import AttachmentPointControls from '../MonomerCreationWizard/components/AttachmentPointControls/AttachmentPointControls';
 import { useAttachmentPointSelectsData } from '../MonomerCreationWizard/hooks/useAttachmentPointSelectsData';
 

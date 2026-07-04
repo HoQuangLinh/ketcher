@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Serializer
+[@hoquanglinh/ketcher-core](../README.md) / Serializer
 
 # Interface: Serializer<T\>
 

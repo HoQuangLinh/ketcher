@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-export type { IRnaPreset } from 'ketcher-core';
+export type { IRnaPreset } from '@hoquanglinh/ketcher-core';
 
 export interface IExpandIconProps {
   expanded: boolean;

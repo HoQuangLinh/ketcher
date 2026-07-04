@@ -46,8 +46,8 @@ import {
   peptideNaturalAnalogues,
   rnaDnaNaturalAnalogues,
   SingleChainMacromoleculeProperties,
-} from 'ketcher-core';
-import { Icon } from 'ketcher-react';
+} from '@hoquanglinh/ketcher-core';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import { DropDown } from 'components/shared/dropDown';
 import { useRecalculateMacromoleculeProperties } from '../../hooks/useRecalculateMacromoleculeProperties';
 import { debounce, isNumber } from 'lodash';

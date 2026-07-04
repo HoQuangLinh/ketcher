@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / AutomapResult
+[@hoquanglinh/ketcher-core](../README.md) / AutomapResult
 
 # Interface: AutomapResult
 

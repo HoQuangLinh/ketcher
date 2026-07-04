@@ -21,7 +21,7 @@ import {
   atomGetAttr,
   Atom,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { atom } from '../../../../data/schema/struct-schema';
 import styles from '../ContextMenu.module.less';
 import HighlightMenu from 'src/script/ui/action/highlightColors/HighlightColors';

@@ -9,7 +9,7 @@ import {
   Atom,
   Action,
   KetcherLogger,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { STRUCT_TYPE } from 'src/constants';
 import { openDialog } from './modal';
 import { getSelectedAtoms } from '../../editor/tool/select';

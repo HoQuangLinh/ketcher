@@ -5,7 +5,7 @@ import {
   MonomerItemType,
   PolymerBond,
   RnaPhosphatePosition,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export enum PreviewType {
   Monomer = 'monomer',

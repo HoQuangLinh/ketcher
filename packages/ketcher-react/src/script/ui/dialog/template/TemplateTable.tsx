@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import type { FC, KeyboardEvent } from 'react';
-import type { Struct } from 'ketcher-core';
+import type { Struct } from '@hoquanglinh/ketcher-core';
 import classes from './TemplateTable.module.less';
 import { greekify } from '../../utils';
 import { Icon, StructRender } from 'components';

@@ -17,8 +17,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 import styled from '@emotion/styled';
-import { ZoomTool } from 'ketcher-core';
-import { AmbiguousMonomerPreview } from 'ketcher-react';
+import { ZoomTool } from '@hoquanglinh/ketcher-core';
+import { AmbiguousMonomerPreview } from '@hoquanglinh/ketcher-react';
 import { useAppSelector } from 'hooks';
 import { PreviewType } from 'state';
 import { selectShowPreview, selectEditor } from 'state/common';

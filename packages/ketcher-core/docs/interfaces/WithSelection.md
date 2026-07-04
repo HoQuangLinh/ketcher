@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / WithSelection
+[@hoquanglinh/ketcher-core](../README.md) / WithSelection
 
 # Interface: WithSelection
 

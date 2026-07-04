@@ -22,7 +22,7 @@ import {
   type DeepPartial,
   type ISettingsService,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useAppContext } from 'src/hooks/useAppContext';
 
 const findSettingsService = (
@@ -34,7 +34,7 @@ const findSettingsService = (
 };
 
 /**
- * React hook to access settings from ketcher-core settings service
+ * React hook to access settings from @hoquanglinh/ketcher-core settings service
  * Provides reactive access to settings with update methods
  *
  * @example

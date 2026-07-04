@@ -4,7 +4,7 @@ import {
   Scale,
   Vec2,
   vectorUtils,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { throttle } from 'lodash';
 import type Editor from '../Editor';
 import { getGroupIdsFromItemArrays } from './helper/getGroupIdsFromItems';

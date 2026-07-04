@@ -4,7 +4,7 @@ import {
 } from 'state/library';
 import { MonomerGroups } from '../../../../constants';
 import { Summary } from './Summary';
-import { Icon, IconName } from 'ketcher-react';
+import { Icon, IconName } from '@hoquanglinh/ketcher-react';
 import {
   recalculateRnaBuilderValidations,
   RnaBuilderItem,
@@ -32,7 +32,7 @@ import { memo, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useAppSelector } from 'hooks';
 import { RnaElementsViewProps } from './types';
-import { IRnaPreset } from 'ketcher-core';
+import { IRnaPreset } from '@hoquanglinh/ketcher-core';
 
 type Props = RnaElementsViewProps & {
   newPreset: IRnaPreset;

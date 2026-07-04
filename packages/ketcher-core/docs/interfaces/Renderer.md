@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Renderer
+[@hoquanglinh/ketcher-core](../README.md) / Renderer
 
 # Interface: Renderer
 

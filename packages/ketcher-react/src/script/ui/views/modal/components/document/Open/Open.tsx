@@ -22,7 +22,10 @@ import Recognize from '../../process/Recognize/Recognize';
 import { fileOpener } from '../../../../../utils/';
 import { DialogActionButton } from './components/DialogActionButton';
 import { ViewSwitcher } from './components/ViewSwitcher';
-import { getFormatMimeTypeByFileName, ketcherProvider } from 'ketcher-core';
+import {
+  getFormatMimeTypeByFileName,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 import { useAppContext } from 'src/hooks';
 interface OpenProps {
   server: any;

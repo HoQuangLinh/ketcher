@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SdfItem
+[@hoquanglinh/ketcher-core](../README.md) / SdfItem
 
 # Interface: SdfItem
 

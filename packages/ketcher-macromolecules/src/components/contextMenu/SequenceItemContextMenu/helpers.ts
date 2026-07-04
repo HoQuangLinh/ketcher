@@ -10,7 +10,7 @@ import {
   SequenceNode,
   isTwoStrandedNodeRestrictedForHydrogenBondCreation,
   AmbiguousMonomer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { getCountOfNucleoelements } from 'helpers/countNucleoelents';
 
 const generateLabeledNodes = (

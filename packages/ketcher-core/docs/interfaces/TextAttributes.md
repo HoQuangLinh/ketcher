@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / TextAttributes
+[@hoquanglinh/ketcher-core](../README.md) / TextAttributes
 
 # Interface: TextAttributes
 

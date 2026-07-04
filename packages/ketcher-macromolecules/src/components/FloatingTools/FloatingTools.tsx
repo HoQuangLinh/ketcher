@@ -16,7 +16,7 @@
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import styled from '@emotion/styled';
-import { Icon, IconName } from 'ketcher-react';
+import { Icon, IconName } from '@hoquanglinh/ketcher-react';
 import { useAppSelector } from 'hooks';
 import { selectEditor } from 'state/common';
 import {
@@ -25,7 +25,7 @@ import {
   SelectBase,
   CoreAtom,
   BaseMonomer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const FloatingToolsWrapper = styled.div<{ left: number; top: number }>`
   position: absolute;

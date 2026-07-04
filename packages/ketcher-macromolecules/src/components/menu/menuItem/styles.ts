@@ -16,7 +16,7 @@
 
 import styled from '@emotion/styled';
 
-import { IconButton } from 'ketcher-react';
+import { IconButton } from '@hoquanglinh/ketcher-react';
 
 export const StyledIconButton = styled(IconButton)`
   margin: 2px;

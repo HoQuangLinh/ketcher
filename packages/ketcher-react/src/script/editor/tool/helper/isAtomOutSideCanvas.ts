@@ -1,4 +1,4 @@
-import type { Atom } from 'ketcher-core';
+import type { Atom } from '@hoquanglinh/ketcher-core';
 
 export function hasAtomsOutsideCanvas(atoms: Atom[], render, scale: number) {
   return atoms.some((atom) => {

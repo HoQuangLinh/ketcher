@@ -1,4 +1,4 @@
-declare module 'ketcher-macromolecules' {
+declare module '@hoquanglinh/ketcher-macromolecules' {
   import type * as React from 'react';
   interface MacromoleculesEditorProps {
     ketcherId: string;

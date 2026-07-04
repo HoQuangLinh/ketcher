@@ -27,7 +27,7 @@ import {
   type AtomAllAttributeName,
   SettingsManager,
   getAtomCustomQuery,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { atom as atomSchema } from '../../../../../data/schema/struct-schema';
 import classes from './Atom.module.less';
 import Select from '../../../../../component/form/Select';

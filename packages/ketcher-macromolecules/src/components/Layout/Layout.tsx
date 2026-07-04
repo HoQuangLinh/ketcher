@@ -18,7 +18,7 @@ import React, { RefObject, useRef } from 'react';
 import styled from '@emotion/styled';
 import { MONOMER_HIDE_LIBRARY_BUTTON_WIDTH } from 'components/monomerLibrary/styles';
 import { useInView } from 'react-intersection-observer';
-import { ArrowScroll } from 'ketcher-react';
+import { ArrowScroll } from '@hoquanglinh/ketcher-react';
 
 interface LayoutProps {
   children: JSX.Element | Array<JSX.Element>;

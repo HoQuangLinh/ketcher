@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { IconButton } from 'ketcher-react';
+import { IconButton } from '@hoquanglinh/ketcher-react';
 import { About } from '../modal/About/About';
 
 export function ButtonsComponents() {

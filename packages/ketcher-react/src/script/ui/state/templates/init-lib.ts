@@ -20,7 +20,7 @@ import {
   KetSerializer,
   SdfSerializer,
   SettingsManager,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { appUpdate } from '../options/actions';
 import { storage } from '../../storage-ext';

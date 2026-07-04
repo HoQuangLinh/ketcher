@@ -15,7 +15,10 @@
  ***************************************************************************/
 
 import { fireEvent, render, screen } from '@testing-library/react';
-import { LabeledNodesWithPositionInSequence, Entities } from 'ketcher-core';
+import {
+  LabeledNodesWithPositionInSequence,
+  Entities,
+} from '@hoquanglinh/ketcher-core';
 import { UpdateSequenceInRNABuilder } from './UpdateSequenceInRNABuilder';
 
 const mockProps = {

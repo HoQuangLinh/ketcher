@@ -18,7 +18,7 @@ import {
   FunctionalGroup,
   ketcherProvider,
   MULTITAIL_ARROW_KEY,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { type FC, type PropsWithChildren, useCallback } from 'react';
 import { useContextMenu } from 'react-contexify';
 import { useAppContext } from 'src/hooks';

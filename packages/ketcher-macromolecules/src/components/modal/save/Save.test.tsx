@@ -17,8 +17,8 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
 import { Save } from 'components/modal/save';
 import userEvent from '@testing-library/user-event';
-import { Struct } from 'ketcher-core';
-import * as ketcherCore from 'ketcher-core';
+import { Struct } from '@hoquanglinh/ketcher-core';
+import * as ketcherCore from '@hoquanglinh/ketcher-core';
 
 const mockOnClose = jest.fn();
 

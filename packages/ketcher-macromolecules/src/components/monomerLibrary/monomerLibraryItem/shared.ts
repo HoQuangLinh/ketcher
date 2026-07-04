@@ -3,7 +3,7 @@ import {
   IRnaPreset,
   libraryItemHasR1AttachmentPoint,
   MonomerOrAmbiguousType,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export const getAutochainErrorMessage = (
   editor: CoreEditor,

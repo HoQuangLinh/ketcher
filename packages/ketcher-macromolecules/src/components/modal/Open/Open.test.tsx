@@ -18,9 +18,9 @@ import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
 
 import { Open } from './Open';
-import { IndigoProvider } from 'ketcher-react';
-import { Struct } from 'ketcher-core';
-import * as ketcherCore from 'ketcher-core';
+import { IndigoProvider } from '@hoquanglinh/ketcher-react';
+import { Struct } from '@hoquanglinh/ketcher-core';
+import * as ketcherCore from '@hoquanglinh/ketcher-core';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 jest.spyOn(React, 'useEffect').mockImplementation(() => {});

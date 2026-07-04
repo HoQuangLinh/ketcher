@@ -10,7 +10,7 @@ import {
   fromMultitailArrowHeadTailMove,
   fromMultitailArrowHeadTailsResize,
   fromMultitailArrowMove,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { ArrowTool } from './arrowTool';
 
 export class MultitailArrowMoveTool

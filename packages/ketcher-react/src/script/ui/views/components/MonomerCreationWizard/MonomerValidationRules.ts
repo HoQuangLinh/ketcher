@@ -1,4 +1,8 @@
-import { KetMonomerClass, AttachmentPointName, AtomLabel } from 'ketcher-core';
+import {
+  KetMonomerClass,
+  AttachmentPointName,
+  AtomLabel,
+} from '@hoquanglinh/ketcher-core';
 
 export type LeavingGroupRequirement = {
   attachmentPoint: AttachmentPointName;

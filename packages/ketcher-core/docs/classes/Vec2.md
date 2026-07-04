@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Vec2
+[@hoquanglinh/ketcher-core](../README.md) / Vec2
 
 # Class: Vec2
 

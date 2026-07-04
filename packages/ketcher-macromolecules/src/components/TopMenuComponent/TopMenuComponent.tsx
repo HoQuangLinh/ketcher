@@ -26,7 +26,7 @@ import {
 import { modalComponentList } from 'components/modal/modalContainer';
 import { openModal } from 'state/modal';
 import { resetRnaBuilderAfterSequenceUpdate } from 'components/monomerLibrary/RnaBuilder/RnaEditor/RnaEditorExpanded/helpers';
-import { BaseMonomer } from 'ketcher-core';
+import { BaseMonomer } from '@hoquanglinh/ketcher-core';
 import {
   hasOnlyDeoxyriboseSugars,
   hasOnlyRiboseSugars,
@@ -35,7 +35,7 @@ import {
   isCycleExistsForSelectedMonomers,
 } from 'components/contextMenu/SelectedMonomersContextMenu/helpers';
 import { useEffect, useState } from 'react';
-import { IconName } from 'ketcher-react';
+import { IconName } from '@hoquanglinh/ketcher-react';
 import { CalculateMacromoleculePropertiesButton } from 'components/macromoleculeProperties';
 import { hotkeysShortcuts } from 'components/ZoomControls/helpers';
 

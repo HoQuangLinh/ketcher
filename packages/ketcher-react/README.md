@@ -1,7 +1,7 @@
-# ketcher-react
+# @hoquanglinh/ketcher-react
 
-[![npm version](https://img.shields.io/npm/v/ketcher-react)](https://www.npmjs.com/package/ketcher-react)
-[![Downloads](https://img.shields.io/npm/dm/ketcher-react)](https://www.npmjs.com/package/ketcher-react)
+[![npm version](https://img.shields.io/npm/v/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-react)
+[![Downloads](https://img.shields.io/npm/dm/@hoquanglinh/ketcher-react)](https://www.npmjs.com/package/@hoquanglinh/ketcher-react)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Copyright (c) 2021 [EPAM Systems, Inc.](https://www.epam.com/)
@@ -10,26 +10,28 @@ Ketcher is an open-source web-based chemical structure editor incorporating high
 
 For more details please look at the following [link](https://github.com/epam/ketcher/blob/master/README.md).
 
-The ketcher-react package contains only the functionality necessary to define components. It is used together with [ketcher-core](https://www.npmjs.com/package/ketcher-core) and optionally with [ketcher-standalone](https://www.npmjs.com/package/ketcher-standalone) if standaolone mode is required.
+The @hoquanglinh/ketcher-react package contains only the functionality necessary to define components. It is used together with [@hoquanglinh/ketcher-core](https://www.npmjs.com/package/@hoquanglinh/ketcher-core) and optionally with [@hoquanglinh/ketcher-standalone](https://www.npmjs.com/package/@hoquanglinh/ketcher-standalone) if standaolone mode is required.
 
 ## Installation
 
-The ketcher-react library is available as an [NPM](https://www.npmjs.com/) package. Install it either with NPM:
+The @hoquanglinh/ketcher-react library is available as an [NPM](https://www.npmjs.com/) package. Install it either with NPM:
 
 ```sh
-npm install --save ketcher-react
+npm install --save @hoquanglinh/ketcher-core @hoquanglinh/ketcher-react
 ```
 
 or [Yarn](https://yarnpkg.com/):
 
 ```sh
-yarn add ketcher-react
+yarn add @hoquanglinh/ketcher-react
 ```
 
 ## Usage
 
 ```js
-import { RemoteStructServiceProvider } from 'ketcher-core'
+import { Editor } from '@hoquanglinh/ketcher-react/next'
+import { RemoteStructServiceProvider } from '@hoquanglinh/ketcher-core'
+import '@hoquanglinh/ketcher-react/index.css'
 
 const structServiceProvider = new RemoteStructServiceProvider(
   process.env.REACT_APP_API_PATH!,
@@ -47,6 +49,9 @@ const MyComponent = () => {
   )
 }
 ```
+
+For full macromolecules mode, also install `@hoquanglinh/ketcher-macromolecules`
+and import `Editor` from `@hoquanglinh/ketcher-react`.
 
 ### Indigo Service
 

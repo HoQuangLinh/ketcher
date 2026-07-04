@@ -1,4 +1,4 @@
-import type { AttachmentPointName, AtomLabel } from 'ketcher-core';
+import type { AttachmentPointName, AtomLabel } from '@hoquanglinh/ketcher-core';
 import { useEffect, useRef, useState } from 'react';
 import AttachmentPointControls from '../AttachmentPointControls/AttachmentPointControls';
 import type Editor from '../../../../../../editor';

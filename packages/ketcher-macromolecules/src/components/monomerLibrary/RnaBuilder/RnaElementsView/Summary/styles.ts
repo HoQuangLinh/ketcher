@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import styled from '@emotion/styled';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import { IStyledIconProps } from './types';
 
 export const SummaryContainer = styled.div((props) => ({

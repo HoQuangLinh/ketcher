@@ -17,7 +17,7 @@
 import Form, { Field } from '../../component/form/form/form';
 
 import { Dialog } from 'components';
-import { Elements } from 'ketcher-core';
+import { Elements } from '@hoquanglinh/ketcher-core';
 import { capitalize } from 'lodash/fp';
 import { connect } from 'react-redux';
 import { labelEdit as labelEditSchema } from '../../data/schema/struct-schema';

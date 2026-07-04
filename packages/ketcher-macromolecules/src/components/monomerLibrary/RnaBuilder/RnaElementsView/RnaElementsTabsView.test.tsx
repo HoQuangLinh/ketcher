@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { KetMonomerClass, Struct } from 'ketcher-core';
+import { KetMonomerClass, Struct } from '@hoquanglinh/ketcher-core';
 import { MONOMER_TYPES, MonomerGroups } from 'src/constants';
 
 import RnaElementsTabsView from './RnaElementsTabsView';

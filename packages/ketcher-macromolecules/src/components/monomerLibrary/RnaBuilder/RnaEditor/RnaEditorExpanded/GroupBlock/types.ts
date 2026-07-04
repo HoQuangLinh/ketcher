@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { IconName } from 'ketcher-react';
+import { IconName } from '@hoquanglinh/ketcher-react';
 import { MonomerGroups } from 'src/constants';
 
 export interface IGroupBlockProps {

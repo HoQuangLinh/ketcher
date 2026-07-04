@@ -26,7 +26,7 @@ import {
   toStereoLabel,
 } from '../../data/convert/structconv';
 
-import { Elements, KetcherLogger } from 'ketcher-core';
+import { Elements, KetcherLogger } from '@hoquanglinh/ketcher-core';
 import acts from '../../action';
 import { debounce } from 'lodash/fp';
 import { openDialog } from '../modal';

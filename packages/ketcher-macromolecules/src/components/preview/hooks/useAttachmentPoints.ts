@@ -2,7 +2,7 @@ import {
   AttachmentPointName,
   AttachmentPointsToBonds,
   LeavingGroup,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useMemo } from 'react';
 import hydrateLeavingGroup from 'helpers/hydrateLeavingGroup';
 

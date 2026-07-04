@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / GenerateImageOptions
+[@hoquanglinh/ketcher-core](../README.md) / GenerateImageOptions
 
 # Interface: GenerateImageOptions
 

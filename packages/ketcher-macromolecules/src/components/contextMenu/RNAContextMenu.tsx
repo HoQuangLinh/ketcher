@@ -5,7 +5,7 @@ import { CONTEXT_MENU_ID } from './types';
 import { selectCurrentTabIndex, setSelectedTabIndex } from 'state/library';
 import { selectActivePresetForContextMenu } from 'state/rna-builder';
 import { createPortal } from 'react-dom';
-import { KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR } from 'ketcher-react';
+import { KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR } from '@hoquanglinh/ketcher-react';
 import { selectIsSequenceEditInRNABuilderMode } from 'state/common';
 import { ContextMenu } from 'components/contextMenu/ContextMenu';
 import { LIBRARY_TAB_INDEX } from '../../constants';

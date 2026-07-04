@@ -14,7 +14,10 @@
  * limitations under the License.
  ***************************************************************************/
 import { LibraryNameType } from '../../../constants';
-import { MonomerGroups, MonomerOrAmbiguousType } from 'ketcher-core';
+import {
+  MonomerGroups,
+  MonomerOrAmbiguousType,
+} from '@hoquanglinh/ketcher-core';
 
 export interface IMonomerGroupProps {
   items: MonomerOrAmbiguousType[];

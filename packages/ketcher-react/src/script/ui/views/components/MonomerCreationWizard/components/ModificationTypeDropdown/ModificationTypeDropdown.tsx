@@ -6,7 +6,7 @@ import monomerWizardStyles from '../../MonomerCreationWizard.module.less';
 import {
   compareByTitleWithNaturalFirst,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 const OptionsListbox = forwardRef<HTMLDivElement, HTMLAttributes<HTMLElement>>(
   (props, ref) => {

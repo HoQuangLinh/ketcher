@@ -1,4 +1,8 @@
-import { Action, fromSgroupDeletion, ketcherProvider } from 'ketcher-core';
+import {
+  Action,
+  fromSgroupDeletion,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 import { useCallback } from 'react';
 import { useDispatch } from 'react-redux';
 import { useAppContext } from 'src/hooks';

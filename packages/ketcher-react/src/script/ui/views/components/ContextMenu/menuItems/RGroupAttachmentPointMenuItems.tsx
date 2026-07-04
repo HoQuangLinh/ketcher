@@ -10,7 +10,7 @@ import { useAppContext } from 'src/hooks/useAppContext';
 import type Editor from 'src/script/editor';
 
 import HighlightMenu from 'src/script/ui/action/highlightColors/HighlightColors';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 
 const RGroupAttachmentPointMenuItems: FC<
   MenuItemsProps<RGroupAttachmentPointContextMenuProps>

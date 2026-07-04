@@ -22,7 +22,7 @@ import {
   SaltsAndSolventsProvider,
   FunctionalGroupsProvider,
   SdfSerializer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import templatesRawData from '../../../../templates/salts-and-solvents.sdf';
 import { MODES } from 'src/constants';
 

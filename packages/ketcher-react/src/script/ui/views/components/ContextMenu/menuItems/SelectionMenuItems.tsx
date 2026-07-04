@@ -22,7 +22,10 @@ import type {
 import { getIconName, Icon } from 'components';
 import { useAppContext } from 'src/hooks';
 import HighlightMenu from 'src/script/ui/action/highlightColors/HighlightColors';
-import { CREATE_MONOMER_TOOL_NAME, ketcherProvider } from 'ketcher-core';
+import {
+  CREATE_MONOMER_TOOL_NAME,
+  ketcherProvider,
+} from '@hoquanglinh/ketcher-core';
 import isHidden from '../../../../action/isHidden';
 import { useSelector } from 'react-redux';
 import { optionsSelector } from '../../../../state/options/selectors';

@@ -1,7 +1,7 @@
 /* eslint-disable no-inline-comments */
 import * as path from 'path';
 import { Page, expect } from '@playwright/test';
-import { Ketcher } from 'ketcher-core';
+import { Ketcher } from '@hoquanglinh/ketcher-core';
 import { getTestDataDirectory, readFileContent, saveToFile } from './readFile';
 import {
   getCdx,

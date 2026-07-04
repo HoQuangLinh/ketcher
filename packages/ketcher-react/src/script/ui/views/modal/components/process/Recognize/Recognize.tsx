@@ -35,7 +35,7 @@ import { range } from 'lodash/fp';
 import { recognize } from '../../../../../state/server';
 import { DialogActionButton } from 'src/script/ui/views/modal/components/document/Open/components/DialogActionButton';
 import { Icon, StructRender } from 'components';
-import { type Struct, ketcherProvider } from 'ketcher-core';
+import { type Struct, ketcherProvider } from '@hoquanglinh/ketcher-core';
 import { useAppContext } from 'src/hooks';
 
 type StructStringOrPromise = string | Promise<unknown> | null;

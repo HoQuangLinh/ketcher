@@ -14,8 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 import styled from '@emotion/styled';
-import { MonomerItemType, MonomerOrAmbiguousType } from 'ketcher-core';
-import { Icon } from 'ketcher-react';
+import {
+  MonomerItemType,
+  MonomerOrAmbiguousType,
+} from '@hoquanglinh/ketcher-core';
+import { Icon } from '@hoquanglinh/ketcher-react';
 
 export const Card = styled.div<{
   code?: string;

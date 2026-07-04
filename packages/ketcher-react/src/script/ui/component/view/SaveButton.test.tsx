@@ -26,7 +26,7 @@ jest.mock('../../../../hooks', () => {
   };
 });
 
-jest.mock('ketcher-core');
+jest.mock('@hoquanglinh/ketcher-core');
 
 describe('SaveButton', () => {
   const defaultProps = {

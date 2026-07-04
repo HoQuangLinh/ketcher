@@ -16,7 +16,7 @@
 
 import { syncSettingsFromCore } from '../index';
 import { getDefaultOptions } from '../../../data/schema/options-schema';
-import { getDefaultSettings } from 'ketcher-core';
+import { getDefaultSettings } from '@hoquanglinh/ketcher-core';
 
 describe('syncSettingsFromCore', () => {
   it('should keep React initial defaults equal to normalized Core defaults', () => {

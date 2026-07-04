@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ScaleOptions
+[@hoquanglinh/ketcher-core](../README.md) / ScaleOptions
 
 # Interface: ScaleOptions
 

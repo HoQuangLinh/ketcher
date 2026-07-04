@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import type { FC, ReactNode } from 'react';
-import type { Element, ElementLabel } from 'ketcher-core';
+import type { Element, ElementLabel } from '@hoquanglinh/ketcher-core';
 import Atom from '../../../../../../../component/view/Atom';
 import clsx from 'clsx';
 

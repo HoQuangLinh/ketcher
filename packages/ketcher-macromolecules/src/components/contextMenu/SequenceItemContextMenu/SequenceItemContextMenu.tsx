@@ -5,7 +5,7 @@ import {
   KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
   Icon,
   IconName,
-} from 'ketcher-react';
+} from '@hoquanglinh/ketcher-react';
 import { useAppDispatch, useAppSelector, useLayoutMode } from 'hooks';
 import {
   selectEditor,
@@ -21,7 +21,7 @@ import {
   Chain,
   ITwoStrandedChainItem,
   BaseSequenceItemRenderer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { setSelectedTabIndex } from 'state/library';
 import {
   setSequenceSelection,

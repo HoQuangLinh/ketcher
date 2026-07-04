@@ -6,7 +6,7 @@ import type {
   SelectionContextMenuProps,
   ItemEventParams,
 } from '../contextMenu.types';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 import {
   type RnaPresetComponentType,
   MonomerCreationMarkAsComponentAction,

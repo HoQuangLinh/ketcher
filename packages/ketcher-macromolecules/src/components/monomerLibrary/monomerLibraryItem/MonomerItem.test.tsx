@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { MonomerItemType, Struct } from 'ketcher-core';
+import { MonomerItemType, Struct } from '@hoquanglinh/ketcher-core';
 import { MonomerItem } from './MonomerItem';
 
 describe('Test Monomer Item component', () => {

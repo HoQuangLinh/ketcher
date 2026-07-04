@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import assert from 'assert';
-import { Atom, FunctionalGroup } from 'ketcher-core';
+import { Atom, FunctionalGroup } from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import type { Tool } from './Tool';
 import { editRGroupAttachmentPoint } from './apoint.utils';

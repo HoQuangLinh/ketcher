@@ -1,4 +1,8 @@
-import { type ReStruct, ketcherProvider, Pile } from 'ketcher-core';
+import {
+  type ReStruct,
+  ketcherProvider,
+  Pile,
+} from '@hoquanglinh/ketcher-core';
 import { useCallback, useRef } from 'react';
 import { useAppContext } from 'src/hooks';
 import type Editor from 'src/script/editor';

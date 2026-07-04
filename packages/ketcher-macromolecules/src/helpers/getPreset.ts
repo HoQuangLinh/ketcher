@@ -12,7 +12,7 @@ import {
   getRnaPresetPhosphatePosition,
   setAmbiguousMonomerTemplatePrefix,
   isAmbiguousMonomerLibraryItem,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { getMonomerUniqueKey } from 'state/library';
 
 interface RnaPresetsTemplatesType

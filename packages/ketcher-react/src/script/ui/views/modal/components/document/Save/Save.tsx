@@ -44,7 +44,7 @@ import {
   isClipboardAPIAvailable,
   legacyCopy,
   SupportedFormat,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { Dialog } from '../../../../components';
 import Tabs from 'src/script/ui/component/view/Tabs';

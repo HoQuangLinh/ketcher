@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / AtomListParams
+[@hoquanglinh/ketcher-core](../README.md) / AtomListParams
 
 # Interface: AtomListParams
 

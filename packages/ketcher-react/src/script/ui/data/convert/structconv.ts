@@ -22,7 +22,7 @@ import {
   Elements,
   StereoLabel,
   getAtomType,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { capitalize } from 'lodash/fp';
 import {
   sdataSchema,

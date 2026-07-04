@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StereLabelStyleType
+[@hoquanglinh/ketcher-core](../README.md) / StereLabelStyleType
 
 # Enumeration: StereLabelStyleType
 

@@ -40,7 +40,7 @@ import {
   BackBoneSequenceNode,
   LinkerSequenceNode,
   ToolName,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { selectAllPresets } from 'state/rna-builder';
 import {
   AmbiguousMonomerPreviewState,
@@ -51,7 +51,7 @@ import {
   PreviewStyle,
   PreviewType,
 } from 'state/types';
-import { calculateBondPreviewPosition } from 'ketcher-react';
+import { calculateBondPreviewPosition } from '@hoquanglinh/ketcher-react';
 import { loadDefaultPresets, loadMonomerLibrary } from 'state/library';
 
 const noPreviewTools = [ToolName.bondSingle, ToolName.selectRectangle];

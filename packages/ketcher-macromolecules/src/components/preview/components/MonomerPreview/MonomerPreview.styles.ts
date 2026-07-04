@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 import styled from '@emotion/styled';
-import { StructRender } from 'ketcher-react';
+import { StructRender } from '@hoquanglinh/ketcher-react';
 
 export const Container = styled.div<{ isLongName?: boolean }>`
   display: flex;

@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 import { ThemeProvider, createTheme } from '@mui/material';
 import { useCallback, useState } from 'react';
-import { ButtonsConfig, Editor } from 'ketcher-react';
-import { Ketcher } from 'ketcher-core';
-import { StandaloneStructServiceProvider } from 'ketcher-standalone';
+import { ButtonsConfig, Editor } from '@hoquanglinh/ketcher-react';
+import { Ketcher } from '@hoquanglinh/ketcher-core';
+import { StandaloneStructServiceProvider } from '@hoquanglinh/ketcher-standalone';
 
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/dist/index.css';
 
 import './App.css';
 import { Panel } from './components/Panel';

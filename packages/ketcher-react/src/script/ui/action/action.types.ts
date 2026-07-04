@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import type { Dispatch } from 'redux';
-import type { Struct } from 'ketcher-core';
+import type { Struct } from '@hoquanglinh/ketcher-core';
 import type Editor from '../../editor/Editor';
 
 type ToolVariant =

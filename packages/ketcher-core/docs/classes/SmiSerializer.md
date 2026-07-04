@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SmiSerializer
+[@hoquanglinh/ketcher-core](../README.md) / SmiSerializer
 
 # Class: SmiSerializer
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / Render
+[@hoquanglinh/ketcher-core](../README.md) / Render
 
 # Class: Render
 

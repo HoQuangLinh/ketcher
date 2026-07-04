@@ -27,7 +27,7 @@ import { ExternalFuncControls } from './ExternalFuncControls';
 import { Divider } from './Divider';
 import { TopToolbarIconButton } from './TopToolbarIconButton';
 import { CustomButtons } from './CustomButtons';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 import { cloneElement, useCallback, useMemo } from 'react';
 import type { CustomButton } from '../../../../builders/ketcher/CustomButtons';
 

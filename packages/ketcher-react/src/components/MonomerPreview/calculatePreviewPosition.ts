@@ -17,7 +17,7 @@ import {
   type AmbiguousMonomerType,
   type PolymerBond,
   ZoomTool,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { preview } from './constants';
 import type { PreviewStyle } from './AmbiguousMonomerPreview/types';
 import assert from 'assert';

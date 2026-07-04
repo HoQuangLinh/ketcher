@@ -28,7 +28,10 @@ import {
 import { IMonomerItemProps } from './types';
 import { FavoriteStarSymbol, MONOMER_TYPES } from '../../../constants';
 import useDisabledForSequenceMode from 'components/monomerLibrary/monomerLibraryItem/hooks/useDisabledForSequenceMode';
-import { MonomerItemType, isAmbiguousMonomerLibraryItem } from 'ketcher-core';
+import {
+  MonomerItemType,
+  isAmbiguousMonomerLibraryItem,
+} from '@hoquanglinh/ketcher-core';
 import { useLibraryItemDrag } from 'components/monomerLibrary/monomerLibraryItem/hooks/useLibraryItemDrag';
 import {
   selectEditor,

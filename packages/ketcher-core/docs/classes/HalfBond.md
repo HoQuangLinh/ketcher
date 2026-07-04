@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / HalfBond
+[@hoquanglinh/ketcher-core](../README.md) / HalfBond
 
 # Class: HalfBond
 

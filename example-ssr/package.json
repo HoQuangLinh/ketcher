@@ -10,10 +10,9 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "ketcher-core": "*",
-    "ketcher-macromolecules": "*",
-    "ketcher-react": "*",
-    "ketcher-standalone": "*",
+    "@hoquanglinh/ketcher-core": "*",
+    "@hoquanglinh/ketcher-react": "*",
+    "@hoquanglinh/ketcher-standalone": "*",
     "next": "16.2.9",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"

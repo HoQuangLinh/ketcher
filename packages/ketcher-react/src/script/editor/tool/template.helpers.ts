@@ -14,7 +14,12 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { type Bond, type Struct, Vec2, vectorUtils } from 'ketcher-core';
+import {
+  type Bond,
+  type Struct,
+  Vec2,
+  vectorUtils,
+} from '@hoquanglinh/ketcher-core';
 
 export function getSign(molecule, bond, v) {
   const begin = molecule.atoms.get(bond.begin).pp;

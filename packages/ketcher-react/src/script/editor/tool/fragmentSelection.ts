@@ -7,7 +7,7 @@ import {
   fromMultipleMove,
   getHoverToFuse,
   getItemsToFuse,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { dropAndMerge } from '../tool/helper/dropAndMerge';
 import type { ClosestItemWithMap } from '../shared/closest.types';
 

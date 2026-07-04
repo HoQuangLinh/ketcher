@@ -5,7 +5,7 @@ import {
   type AtomLabel,
   type AttachmentPointName,
   ketcherProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import {
   type ChangeEvent,
   type ReactNode,

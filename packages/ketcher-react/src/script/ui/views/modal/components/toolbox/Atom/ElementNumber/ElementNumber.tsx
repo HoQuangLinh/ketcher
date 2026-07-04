@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { Elements } from 'ketcher-core';
+import { Elements } from '@hoquanglinh/ketcher-core';
 import { capitalize } from 'lodash/fp';
 
 interface ElementNumberProps {

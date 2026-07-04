@@ -14,7 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { ChemicalMimeType, KetcherLogger, KetSerializer } from 'ketcher-core';
+import {
+  ChemicalMimeType,
+  KetcherLogger,
+  KetSerializer,
+} from '@hoquanglinh/ketcher-core';
 import { appUpdate } from '../options/actions';
 import { setStruct } from '../options';
 import { omit, without } from 'lodash/fp';

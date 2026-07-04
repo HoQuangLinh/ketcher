@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / KetSerializer
+[@hoquanglinh/ketcher-core](../README.md) / KetSerializer
 
 # Class: KetSerializer
 

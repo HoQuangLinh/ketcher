@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RxnPlusAttributes
+[@hoquanglinh/ketcher-core](../README.md) / RxnPlusAttributes
 
 # Interface: RxnPlusAttributes
 

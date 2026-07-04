@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import { Vec2 } from 'ketcher-core';
+import { Vec2 } from '@hoquanglinh/ketcher-core';
 import Editor from '../Editor';
 import RotateTool from './rotate';
 import SelectTool from './select/select';

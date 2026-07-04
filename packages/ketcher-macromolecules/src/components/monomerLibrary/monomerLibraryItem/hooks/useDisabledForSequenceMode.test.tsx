@@ -1,5 +1,9 @@
 import { renderHook } from '@testing-library/react';
-import { MonomerGroups, MonomerItemType, Struct } from 'ketcher-core';
+import {
+  MonomerGroups,
+  MonomerItemType,
+  Struct,
+} from '@hoquanglinh/ketcher-core';
 import { useSelector } from 'react-redux';
 import { useAppSelector } from 'hooks';
 import useDisabledForSequenceMode from 'components/monomerLibrary/monomerLibraryItem/hooks/useDisabledForSequenceMode';

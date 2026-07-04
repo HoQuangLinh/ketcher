@@ -14,17 +14,20 @@
  * limitations under the License.
  ***************************************************************************/
 
-// TODO: find DOM shorthand
-import { Vec2 } from '@hoquanglinh/ketcher-core';
+import { type EditorProps, MicromoleculesEditor } from './MicromoleculesEditor';
 
-export function elementOffset(element) {
-  let top = 0;
-  let left = 0;
-  do {
-    top += element.offsetTop ?? 0;
-    left += element.offsetLeft ?? 0;
-    element = element.offsetParent;
-  } while (element);
+export type NextEditorProps = Omit<EditorProps, 'ketcherId'> & {
+  ketcherId?: string;
+};
 
-  return new Vec2(left, top);
-}
+export const Editor = (props: Readonly<NextEditorProps>) => (
+  <MicromoleculesEditor {...(props as EditorProps)} />
+);
+
+export { MicromoleculesEditor };
+export type { EditorProps } from './MicromoleculesEditor';
+export * from './script';
+export * from './constants';
+export * from './components';
+export * from './utils';
+export { AppContext } from './contexts';

@@ -21,7 +21,7 @@ import {
   IMAGE_KEY,
   Vec2,
   MULTITAIL_ARROW_KEY,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import assert from 'assert';
 
 function getElementsInRectangle(restruct: ReStruct, p0, p1) {

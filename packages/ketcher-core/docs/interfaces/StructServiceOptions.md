@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StructServiceOptions
+[@hoquanglinh/ketcher-core](../README.md) / StructServiceOptions
 
 # Interface: StructServiceOptions
 

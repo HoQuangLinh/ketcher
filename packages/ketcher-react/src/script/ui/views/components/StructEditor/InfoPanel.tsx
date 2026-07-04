@@ -24,7 +24,7 @@ import {
   CoordinateTransformation,
   MonomerMicromolecule,
   AmbiguousMonomer,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import SGroupDataRender from './SGroupDataRender';
 import { functionGroupInfoSelector } from '../../../state/functionalGroups/selectors';

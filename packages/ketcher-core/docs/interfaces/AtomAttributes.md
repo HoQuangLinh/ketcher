@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / AtomAttributes
+[@hoquanglinh/ketcher-core](../README.md) / AtomAttributes
 
 # Interface: AtomAttributes
 

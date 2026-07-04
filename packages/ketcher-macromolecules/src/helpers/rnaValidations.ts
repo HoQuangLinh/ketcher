@@ -1,5 +1,8 @@
 import { IRnaPreset } from 'components/monomerLibrary/RnaBuilder/types';
-import { MonomerItemType, RnaPhosphatePosition } from 'ketcher-core';
+import {
+  MonomerItemType,
+  RnaPhosphatePosition,
+} from '@hoquanglinh/ketcher-core';
 
 const hasCap = (
   presetPart: MonomerItemType | undefined,

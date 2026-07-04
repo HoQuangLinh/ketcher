@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-import { type IconName } from 'ketcher-react';
+import { type IconName } from '@hoquanglinh/ketcher-react';
 import { useMenuContext } from '../../../hooks/useMenuContext';
 import { useCallback } from 'react';
 import styled from '@emotion/styled';

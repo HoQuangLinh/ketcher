@@ -98,23 +98,23 @@ npm run dev:remote
 
 **NB!** We use Vite for development and react-app-rewired(Webpack based) for build. To make sure your implementation has consistent behavior both in development and production, after you finish developing with Vite, you'd better check your implementation with react-app-rewired before creating a new PR. Please follow the following steps:
 
-Component libraries and application should be started separately. First should be started ketcher-core package.
+Component libraries and application should be started separately. First should be started @hoquanglinh/ketcher-core package.
 
-#### Build ketcher-core package
+#### Build @hoquanglinh/ketcher-core package
 
 ```sh
 cd packages/ketcher-core
 npm start
 ```
 
-#### Build ketcher-react package
+#### Build @hoquanglinh/ketcher-react package
 
 ```sh
 cd packages/ketcher-react
 npm start
 ```
 
-#### Build ketcher-standalone package
+#### Build @hoquanglinh/ketcher-standalone package
 
 ```sh
 cd packages/ketcher-standalone

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SimpleObject
+[@hoquanglinh/ketcher-core](../README.md) / SimpleObject
 
 # Class: SimpleObject
 

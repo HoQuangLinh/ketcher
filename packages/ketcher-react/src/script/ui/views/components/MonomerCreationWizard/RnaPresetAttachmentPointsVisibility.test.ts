@@ -2,7 +2,7 @@ import {
   type Struct,
   AttachmentPointName,
   KetMonomerClass,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import type { RnaPresetWizardState } from './MonomerCreationWizard.types';
 import {

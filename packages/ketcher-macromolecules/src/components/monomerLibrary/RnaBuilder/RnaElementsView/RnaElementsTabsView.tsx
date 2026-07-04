@@ -18,7 +18,7 @@ import {
 } from 'state/library';
 import { MonomerGroups } from '../../../../constants';
 import clsx from 'clsx';
-import { Icon, IconName } from 'ketcher-react';
+import { Icon, IconName } from '@hoquanglinh/ketcher-react';
 import {
   RnaBuilderPresetsItem,
   selectActiveMonomerKey,

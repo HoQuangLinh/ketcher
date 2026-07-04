@@ -17,8 +17,8 @@
 /* eslint-disable  @typescript-eslint/no-empty-interface */
 import '@emotion/react';
 import { ThemeOptions as MuiThemeOptions } from '@mui/material/styles';
-import { EditorTheme } from 'ketcher-core';
-export type { EditorTheme } from 'ketcher-core';
+import { EditorTheme } from '@hoquanglinh/ketcher-core';
+export type { EditorTheme } from '@hoquanglinh/ketcher-core';
 
 export type ThemeType = { ketcher: EditorTheme };
 

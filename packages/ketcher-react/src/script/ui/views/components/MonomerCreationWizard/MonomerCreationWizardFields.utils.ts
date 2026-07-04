@@ -1,4 +1,4 @@
-import { KetMonomerClass } from 'ketcher-core';
+import { KetMonomerClass } from '@hoquanglinh/ketcher-core';
 import { isNaturalAnalogueRequired } from './components/NaturalAnaloguePicker/NaturalAnaloguePicker';
 
 export const getMonomerPropertyVisibility = (

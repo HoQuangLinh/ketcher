@@ -14,7 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { KetcherLogger, Settings, SettingsFormValue } from 'ketcher-core';
+import {
+  KetcherLogger,
+  Settings,
+  SettingsFormValue,
+} from '@hoquanglinh/ketcher-core';
 import { SettingsField } from './SettingsField';
 import { FIELD_DEFINITIONS } from './fieldGroups';
 import { FieldsContainer } from './Settings.styles';

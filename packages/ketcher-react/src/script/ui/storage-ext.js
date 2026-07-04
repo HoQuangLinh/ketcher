@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { KetcherLogger } from 'ketcher-core';
+import { KetcherLogger } from '@hoquanglinh/ketcher-core';
 
 /* local storage */
 export const storage = {

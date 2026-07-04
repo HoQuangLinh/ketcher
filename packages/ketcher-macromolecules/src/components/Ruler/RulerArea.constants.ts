@@ -1,4 +1,4 @@
-import { SnakeLayoutCellWidth } from 'ketcher-core';
+import { SnakeLayoutCellWidth } from '@hoquanglinh/ketcher-core';
 
 export const SequenceModeStartOffset = 40;
 export const SequenceModeItemWidth = 20;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-import { Icon, IconName } from 'ketcher-react';
+import { Icon, IconName } from '@hoquanglinh/ketcher-react';
 import styled from '@emotion/styled';
 import { FileDrop } from './FileDrop';
 import { OpenOptionText } from './sharedStyles';

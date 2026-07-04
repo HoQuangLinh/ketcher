@@ -1,4 +1,7 @@
-import { Entities, LabeledNodesWithPositionInSequence } from 'ketcher-core';
+import {
+  Entities,
+  LabeledNodesWithPositionInSequence,
+} from '@hoquanglinh/ketcher-core';
 
 const getNucleotideMonomerGroupName = (nameSet: Set<string>): string => {
   if (nameSet.size === 0) return '';

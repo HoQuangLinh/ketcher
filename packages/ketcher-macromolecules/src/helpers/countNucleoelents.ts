@@ -1,4 +1,4 @@
-import { Entities, Nucleotide, Nucleoside } from 'ketcher-core';
+import { Entities, Nucleotide, Nucleoside } from '@hoquanglinh/ketcher-core';
 
 export const getCountOfNucleoelements = <T extends { [key: string]: unknown }>(
   selections: T[],

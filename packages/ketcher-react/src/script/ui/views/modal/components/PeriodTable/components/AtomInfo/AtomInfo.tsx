@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { ElementColor, type Element } from 'ketcher-core';
+import { ElementColor, type Element } from '@hoquanglinh/ketcher-core';
 import classes from './AtomInfo.module.less';
 import clsx from 'clsx';
 

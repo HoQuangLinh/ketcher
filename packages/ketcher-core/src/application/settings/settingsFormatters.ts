@@ -85,7 +85,7 @@ function normalizeStereoLabelStyleForForm(
 
 /**
  * Normalize settings collected from UI forms or legacy Redux state to the
- * canonical SettingsService format validated by ketcher-core.
+ * canonical SettingsService format validated by @hoquanglinh/ketcher-core.
  */
 export function normalizeSettingsForCore(
   settings: SettingsFormValue,

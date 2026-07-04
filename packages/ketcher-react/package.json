@@ -1,6 +1,6 @@
 {
-  "name": "ketcher-react",
-  "version": "3.18.0-rc.1",
+  "name": "@hoquanglinh/ketcher-react",
+  "version": "3.18.0-rc.2",
   "description": "Web-based molecule sketcher",
   "license": "Apache-2.0",
   "homepage": "http://lifescience.opensource.epam.com/ketcher",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epam/ketcher.git",
+    "url": "git+https://github.com/epam/ketcher.git",
     "directory": "packages/ketcher-react"
   },
   "keywords": [
@@ -43,8 +43,14 @@
     "stylelint:fix": "stylelint \"./**/*.{css,less}\" --formatter verbose --fix"
   },
   "peerDependencies": {
+    "@hoquanglinh/ketcher-macromolecules": "3.18.0-rc.2",
     "react": "^18.2.0 || ^19.0.0",
     "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@hoquanglinh/ketcher-macromolecules": {
+      "optional": true
+    }
   },
   "dependencies": {
     "@babel/runtime": "^7.26.10",
@@ -56,14 +62,13 @@
     "@mui/material": "^5.18.0",
     "cfb": "^1.2.2",
     "clsx": "^1.1.1",
-    "dpdm": "^4.2.0",
     "element-closest-polyfill": "^1.0.2",
     "file-saver": "^2.0.2",
     "font-face-observer": "^1.0.0",
     "hoist-non-react-statics": "^3.3.2",
     "intersection-observer": "^0.12.2",
     "jsonschema": "^1.5.0",
-    "ketcher-core": "*",
+    "@hoquanglinh/ketcher-core": "3.18.0-rc.2",
     "lexical": "^0.40.0",
     "lodash": "^4.18.1",
     "miew-react": "0.11.0",
@@ -113,6 +118,7 @@
     "autoprefixer": "^10.2.5",
     "babel-jest": "^30.3.0",
     "cross-env": "^7.0.3",
+    "dpdm": "^4.2.0",
     "eslint": "^8.49.0",
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
@@ -137,18 +143,32 @@
     "typescript": "^6.0.3"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/**/*.map",
+    "!dist/cjs"
   ],
   "exports": {
     ".": {
-      "import": "./dist/index.js",
       "types": "./dist/index.d.ts",
-      "require": "./dist/cjs/index.js"
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./next": {
+      "types": "./dist/next.d.ts",
+      "import": "./dist/next.js",
+      "default": "./dist/next.js"
+    },
+    "./index.css": {
+      "import": "./dist/index.css",
+      "default": "./dist/index.css"
     },
     "./dist/index.css": {
       "import": "./dist/index.css",
-      "require": "./dist/index.css",
       "default": "./dist/index.css"
     }
-  }
+  },
+  "sideEffects": [
+    "*.css",
+    "dist/index.css"
+  ]
 }

@@ -4,7 +4,7 @@ import {
   RnaBuilderPresetsItem,
   selectFilteredPresets,
 } from 'state/rna-builder';
-import { KetMonomerClass } from 'ketcher-core';
+import { KetMonomerClass } from '@hoquanglinh/ketcher-core';
 import {
   selectFilteredMonomers,
   selectMonomerGroups,

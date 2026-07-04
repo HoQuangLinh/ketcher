@@ -1,9 +1,9 @@
 'use client';
 
-import { StandaloneStructServiceProvider as StandaloneStructServiceProviderType } from 'ketcher-standalone';
-import { Editor } from 'ketcher-react';
+import { StandaloneStructServiceProvider as StandaloneStructServiceProviderType } from '@hoquanglinh/ketcher-standalone';
+import { Editor } from '@hoquanglinh/ketcher-react/next';
 
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/index.css';
 
 const safePostMessage = (
   message: Record<string, unknown>,

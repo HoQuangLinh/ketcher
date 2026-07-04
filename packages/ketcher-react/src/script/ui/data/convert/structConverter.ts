@@ -22,7 +22,7 @@ import {
   RxnArrowMode,
   StereoFlag,
   getPropertiesByFormat,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export function couldBeSaved(
   struct: Struct,

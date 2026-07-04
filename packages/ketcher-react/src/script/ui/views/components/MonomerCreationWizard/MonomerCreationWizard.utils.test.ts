@@ -1,4 +1,4 @@
-import { type BaseMonomer, KetMonomerClass } from 'ketcher-core';
+import { type BaseMonomer, KetMonomerClass } from '@hoquanglinh/ketcher-core';
 import {
   getEditAllInstancesInitialValues,
   getEditInstanceInitialValues,

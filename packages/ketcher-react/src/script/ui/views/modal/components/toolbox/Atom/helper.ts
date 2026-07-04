@@ -1,4 +1,8 @@
-import { type AtomType, Elements, genericsList } from 'ketcher-core';
+import {
+  type AtomType,
+  Elements,
+  genericsList,
+} from '@hoquanglinh/ketcher-core';
 import { capitalize } from 'lodash';
 import { atom as atomSchema } from '../../../../../data/schema/struct-schema';
 import { matchCharge } from 'src/script/ui/data/utils';

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ZoomTransform } from 'd3';
-import { ZoomTool } from 'ketcher-core';
+import { ZoomTool } from '@hoquanglinh/ketcher-core';
 
 export const useZoomTransform = () => {
   const [transform, setTransform] = useState<ZoomTransform>(

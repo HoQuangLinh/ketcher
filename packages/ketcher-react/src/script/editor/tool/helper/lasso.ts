@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { CoordinateTransformation, Scale } from 'ketcher-core';
+import { CoordinateTransformation, Scale } from '@hoquanglinh/ketcher-core';
 import locate from './locate';
 import type Editor from '../../Editor';
 

@@ -29,7 +29,7 @@ import { createPortal } from 'react-dom';
 import { KETCHER_ROOT_NODE_CSS_SELECTOR } from 'src/constants';
 import { MultitailArrowMenuItems } from './menuItems/MultitailArrowMenuItems';
 import MacromoleculeMenuItems from './menuItems/MacromoleculeMenuItems';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 import AttachmentPointLabelMenuItems from './menuItems/AttachmentPointLabelMenuItems';
 
 const props: Partial<MenuProps> = {

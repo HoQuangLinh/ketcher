@@ -7,7 +7,7 @@ import {
   CoordinateTransformation,
   fromArrowResizing,
   fromMultipleMove,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import assert from 'assert';
 import { ArrowTool } from './arrowTool';
 

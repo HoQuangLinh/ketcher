@@ -29,7 +29,7 @@ import {
   type ISettingsStorage,
   type Settings,
   type DeepPartial,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import type { ButtonsConfig } from './ButtonsConfig';
 import type { Editor } from '../../editor';

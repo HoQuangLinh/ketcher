@@ -15,9 +15,12 @@
  ***************************************************************************/
 
 import { useState, useRef, useCallback, useEffect, RefObject } from 'react';
-import { KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR, Icon } from 'ketcher-react';
+import {
+  KETCHER_MACROMOLECULES_ROOT_NODE_SELECTOR,
+  Icon,
+} from '@hoquanglinh/ketcher-react';
 import { ZoomInput } from 'components/ZoomControls/ZoomInput';
-import { ZoomTool } from 'ketcher-core';
+import { ZoomTool } from '@hoquanglinh/ketcher-core';
 import {
   Dropdown,
   DropDownButton,

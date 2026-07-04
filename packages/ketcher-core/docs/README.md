@@ -1,6 +1,6 @@
-ketcher-core
+@hoquanglinh/ketcher-core
 
-# ketcher-core
+# @hoquanglinh/ketcher-core
 
 ## Table of contents
 

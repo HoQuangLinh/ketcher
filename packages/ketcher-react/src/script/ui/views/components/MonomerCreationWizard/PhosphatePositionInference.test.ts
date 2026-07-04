@@ -1,4 +1,4 @@
-import { type Bond, AttachmentPointName } from 'ketcher-core';
+import { type Bond, AttachmentPointName } from '@hoquanglinh/ketcher-core';
 
 import { inferPhosphatePosition } from './PhosphatePositionInference';
 

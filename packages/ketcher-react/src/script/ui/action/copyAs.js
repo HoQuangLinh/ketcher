@@ -14,7 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { KetcherLogger, KetSerializer, MolSerializer } from 'ketcher-core';
+import {
+  KetcherLogger,
+  KetSerializer,
+  MolSerializer,
+} from '@hoquanglinh/ketcher-core';
 
 export default function copyAs(type) {
   const state = global.currentState;

@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { IconButton } from 'ketcher-react';
+import { IconButton } from '@hoquanglinh/ketcher-react';
 
 export const StyledToastContainer = styled.div({
   display: 'flex',

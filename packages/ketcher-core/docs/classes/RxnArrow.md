@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / RxnArrow
+[@hoquanglinh/ketcher-core](../README.md) / RxnArrow
 
 # Class: RxnArrow
 

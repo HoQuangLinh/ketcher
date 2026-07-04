@@ -1,4 +1,4 @@
-import { AttachmentPointsToBonds } from 'ketcher-core';
+import { AttachmentPointsToBonds } from '@hoquanglinh/ketcher-core';
 
 export const getConnectedAttachmentPoints = (
   bonds: AttachmentPointsToBonds,

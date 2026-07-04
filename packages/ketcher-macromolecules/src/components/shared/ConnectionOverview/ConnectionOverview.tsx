@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import { BaseMonomer } from 'ketcher-core';
+import { BaseMonomer } from '@hoquanglinh/ketcher-core';
 import {
   AttachmentPointsRow,
   ConnectionSymbol,

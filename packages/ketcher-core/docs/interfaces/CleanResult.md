@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / CleanResult
+[@hoquanglinh/ketcher-core](../README.md) / CleanResult
 
 # Interface: CleanResult
 

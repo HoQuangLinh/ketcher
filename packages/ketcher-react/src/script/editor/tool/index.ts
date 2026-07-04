@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-import { CREATE_MONOMER_TOOL_NAME, IMAGE_KEY } from 'ketcher-core';
+import { CREATE_MONOMER_TOOL_NAME, IMAGE_KEY } from '@hoquanglinh/ketcher-core';
 
 import APointTool from './apoint';
 import AtomTool from './atom';

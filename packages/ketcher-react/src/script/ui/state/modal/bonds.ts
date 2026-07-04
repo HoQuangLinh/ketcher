@@ -1,4 +1,9 @@
-import { type Bond, Action, fromBondsAttrs, KetcherLogger } from 'ketcher-core';
+import {
+  type Bond,
+  Action,
+  fromBondsAttrs,
+  KetcherLogger,
+} from '@hoquanglinh/ketcher-core';
 import { updateOnlyChangedProperties } from './utils';
 
 export function updateSelectedBonds({

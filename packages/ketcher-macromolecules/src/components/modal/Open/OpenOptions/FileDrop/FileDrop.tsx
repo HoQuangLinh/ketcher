@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 import { useDropzone, DropzoneOptions } from 'react-dropzone';
-import { Icon, IconName } from 'ketcher-react';
+import { Icon, IconName } from '@hoquanglinh/ketcher-react';
 import React, { useMemo } from 'react';
 import styled from '@emotion/styled';
 import { OpenOptionText, DisabledText } from '../sharedStyles';

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReAtom
+[@hoquanglinh/ketcher-core](../README.md) / ReAtom
 
 # Class: ReAtom
 

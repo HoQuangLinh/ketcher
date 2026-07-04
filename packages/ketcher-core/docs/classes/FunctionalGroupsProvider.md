@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / FunctionalGroupsProvider
+[@hoquanglinh/ketcher-core](../README.md) / FunctionalGroupsProvider
 
 # Class: FunctionalGroupsProvider
 

@@ -24,7 +24,7 @@ import {
   MonomerOrAmbiguousType,
   RnaPhosphatePosition,
   RnaPresetWithOptionalFields,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { localStorageWrapper } from 'helpers/localStorage';
 import {
   FAVORITE_ITEMS_UNIQUE_KEYS,

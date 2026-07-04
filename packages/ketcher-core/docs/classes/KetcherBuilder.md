@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / KetcherBuilder
+[@hoquanglinh/ketcher-core](../README.md) / KetcherBuilder
 
 # Class: KetcherBuilder
 

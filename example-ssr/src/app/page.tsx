@@ -1,4 +1,4 @@
-import 'ketcher-react/dist/index.css';
+import '@hoquanglinh/ketcher-react/index.css';
 
 import { EditorComponent } from './editor';
 

@@ -4,7 +4,7 @@ import {
   KetTemplateType,
   MonomerItemType,
   Struct,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 // you can add other props in monomers, if you need them
 export const monomers: MonomerItemType[] = [

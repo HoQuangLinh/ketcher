@@ -5,7 +5,7 @@ import {
   Atom,
   fromAtomsAttrs,
   KetcherLogger,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { updateOnlyChangedProperties } from './utils';
 
 export function isAtomsArray(selectedElements: Atom | Atom[]): boolean {

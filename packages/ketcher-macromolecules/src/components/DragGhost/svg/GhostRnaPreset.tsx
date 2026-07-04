@@ -2,7 +2,7 @@ import {
   getRnaPresetPhosphatePosition,
   IRnaPreset,
   monomerFactory,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 type Props = {
   preset: IRnaPreset;

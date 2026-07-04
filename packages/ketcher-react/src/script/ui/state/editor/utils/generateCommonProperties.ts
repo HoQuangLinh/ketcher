@@ -1,4 +1,4 @@
-import type { Atom, Bond } from 'ketcher-core';
+import type { Atom, Bond } from '@hoquanglinh/ketcher-core';
 
 type partialPropertiesOfElement = Partial<{
   [attribute in keyof (Atom | Bond)]: string | number | boolean;

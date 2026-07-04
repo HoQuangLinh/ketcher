@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / InfoResult
+[@hoquanglinh/ketcher-core](../README.md) / InfoResult
 
 # Interface: InfoResult
 

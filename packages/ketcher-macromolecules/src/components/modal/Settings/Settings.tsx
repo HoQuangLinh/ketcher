@@ -23,7 +23,7 @@ import {
   normalizeSettingsForCore,
   normalizeSettingsForForm,
   SettingsFormValue,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { RequiredModalProps } from '../modalContainer';
 import {
   Container,
@@ -33,7 +33,7 @@ import {
   HeaderButton,
   HeaderTitle,
 } from './Settings.styles';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 
 export const Settings = ({ isModalOpen, onClose }: RequiredModalProps) => {
   const settingsService = window.ketcher?.settingsService;

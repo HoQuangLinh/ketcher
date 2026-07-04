@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StereoColoringType
+[@hoquanglinh/ketcher-core](../README.md) / StereoColoringType
 
 # Enumeration: StereoColoringType
 

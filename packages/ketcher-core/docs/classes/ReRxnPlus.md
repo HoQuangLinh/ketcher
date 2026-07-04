@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReRxnPlus
+[@hoquanglinh/ketcher-core](../README.md) / ReRxnPlus
 
 # Class: ReRxnPlus
 

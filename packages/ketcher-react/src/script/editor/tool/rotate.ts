@@ -32,7 +32,7 @@ import {
   MonomerMicromolecule,
   RotateMonomerOperation,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import assert from 'assert';
 import { intersection, throttle } from 'lodash';
 import type { Editor, Selection } from '../Editor';

@@ -1,4 +1,4 @@
-import { Atom, Bond, Struct } from 'ketcher-core';
+import { Atom, Bond, Struct } from '@hoquanglinh/ketcher-core';
 import { isStructureContinuous } from './structureContinuity';
 
 // Builds a structure: 0—1—2 (a connected chain) plus an isolated atom 3.

@@ -19,7 +19,7 @@ import {
   StructService,
   StructServiceOptions,
   StructServiceProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import StandaloneStructService from './standaloneStructService';
 

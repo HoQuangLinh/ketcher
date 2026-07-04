@@ -12,7 +12,7 @@ import {
   ketcherProvider,
   MonomerMicromolecule,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { useAppContext } from 'src/hooks';
 import type Editor from 'src/script/editor';
 import {

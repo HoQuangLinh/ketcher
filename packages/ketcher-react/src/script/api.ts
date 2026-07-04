@@ -19,7 +19,7 @@ import type {
   StructService,
   StructServiceOptions,
   StructServiceProvider,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 type Api = StructService & Promise<InfoResult>;
 

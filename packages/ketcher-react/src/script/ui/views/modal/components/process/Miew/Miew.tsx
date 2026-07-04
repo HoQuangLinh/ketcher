@@ -31,7 +31,7 @@ import {
   KetcherLogger,
   ketcherProvider,
   SupportedFormat,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { MIEW_OPTIONS } from '../../../../../data/schema/options-schema';
 import classes from './Miew.module.less';
 import { connect } from 'react-redux';

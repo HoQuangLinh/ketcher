@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / LayerMap
+[@hoquanglinh/ketcher-core](../README.md) / LayerMap
 
 # Enumeration: LayerMap
 

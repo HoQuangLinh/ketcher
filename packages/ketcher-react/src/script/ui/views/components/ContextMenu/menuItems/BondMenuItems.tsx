@@ -18,7 +18,10 @@ import { getIconName, Icon } from 'components';
 import { useChangeBondDirection } from '../hooks/useChangeBondDirection';
 import { useAppContext } from 'src/hooks/useAppContext';
 import HighlightMenu from 'src/script/ui/action/highlightColors/HighlightColors';
-import { ketcherProvider, MonomerMicromolecule } from 'ketcher-core';
+import {
+  ketcherProvider,
+  MonomerMicromolecule,
+} from '@hoquanglinh/ketcher-core';
 
 type Params = ItemEventParams<BondsContextMenuProps>;
 

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReEnhancedFlag
+[@hoquanglinh/ketcher-core](../README.md) / ReEnhancedFlag
 
 # Class: ReEnhancedFlag
 

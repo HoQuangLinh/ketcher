@@ -23,11 +23,11 @@ import {
   type EditorLineLength,
   type SingleChainMacromoleculeProperties,
   DeepPartial,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { EditorStatePreview, RootState } from 'state';
 import { PreviewType } from 'state/types';
 import { ThemeType } from 'theming/defaultTheme';
-import { PresetPosition } from 'ketcher-react';
+import { PresetPosition } from '@hoquanglinh/ketcher-react';
 import { SELECT_SUBMENU_ID } from 'components/menu/constants';
 
 export enum MolarMeasurementUnit {

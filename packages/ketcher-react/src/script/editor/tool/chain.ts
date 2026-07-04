@@ -27,7 +27,7 @@ import {
   vectorUtils,
   removeInfoLabelFromAtoms,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { atomLongtapEvent } from './atom';
 import type Editor from '../Editor';

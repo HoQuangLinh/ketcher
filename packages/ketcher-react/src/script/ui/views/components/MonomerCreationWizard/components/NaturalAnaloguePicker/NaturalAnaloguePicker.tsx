@@ -6,7 +6,7 @@ import clsx from 'clsx';
 import styles from './NaturalAnaloguePicker.module.less';
 import NaturalAnalogueChip from '../NaturalAnalogueChip/NaturalAnalogueChip';
 import { Icon } from 'components';
-import { KetMonomerClass } from 'ketcher-core';
+import { KetMonomerClass } from '@hoquanglinh/ketcher-core';
 
 interface ChipGridSelectProps {
   monomerType: KetMonomerClass | 'rnaPreset' | undefined;

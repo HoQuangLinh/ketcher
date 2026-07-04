@@ -31,7 +31,7 @@ import {
   MULTITAIL_ARROW_KEY,
   fromMultitailArrowDeletion,
   MonomerMicromolecule,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import LassoHelper from './helper/lasso';
 import { selMerge } from './select';

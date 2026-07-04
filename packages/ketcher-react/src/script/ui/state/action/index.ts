@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import { isEmpty, isEqual, pickBy } from 'lodash/fp';
-import { type Struct, SettingsManager } from 'ketcher-core';
+import { type Struct, SettingsManager } from '@hoquanglinh/ketcher-core';
 import actions, { type UiAction, type UiActionAction } from '../../action';
 import type Editor from '../../../editor/Editor';
 

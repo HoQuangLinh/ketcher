@@ -5,7 +5,7 @@ import {
   SGroup,
   fromSgroupDeletion,
   fromFragmentDeletion,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export function deleteFunctionalGroups(
   sGroupsId: number[],

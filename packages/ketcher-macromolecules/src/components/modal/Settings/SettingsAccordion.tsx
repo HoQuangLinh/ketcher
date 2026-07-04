@@ -15,10 +15,10 @@
  ***************************************************************************/
 
 import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import type { SettingsFormValue } from 'ketcher-core';
+import type { SettingsFormValue } from '@hoquanglinh/ketcher-core';
 import { FIELD_GROUPS } from './fieldGroups';
 import { SettingsFields } from './SettingsFields';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import {
   AccordionHeader,
   GroupLabel,

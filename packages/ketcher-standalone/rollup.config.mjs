@@ -60,7 +60,7 @@ const baseConfig = {
     main: 'src/index.ts',
     index: 'src/emptyIndex.js',
   },
-  external: ['ketcher-core', /@babel\/runtime/],
+  external: ['@hoquanglinh/ketcher-core', /@babel\/runtime/],
   plugins: [
     nodePolyfills(),
     resolvePlugin({ extensions }),

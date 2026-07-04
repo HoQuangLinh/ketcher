@@ -29,7 +29,7 @@ import action, {
 } from '../action';
 import clsx from 'clsx';
 import { hiddenAncestor } from '../state/toolbar';
-import { shortcutStr } from 'ketcher-core';
+import { shortcutStr } from '@hoquanglinh/ketcher-core';
 import { Icon } from 'components';
 
 type IconName = ComponentProps<typeof Icon>['name'];

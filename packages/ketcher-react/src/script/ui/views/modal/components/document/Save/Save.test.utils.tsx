@@ -2,7 +2,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
 import { ErrorsContext } from 'src/contexts';
-import { defaultBondThickness } from 'ketcher-core';
+import { defaultBondThickness } from '@hoquanglinh/ketcher-core';
 
 const initialState = {
   server: true,

@@ -21,7 +21,7 @@ import {
   IMAGE_KEY,
   MULTITAIL_ARROW_TOOL_NAME,
   CREATE_MONOMER_TOOL_NAME,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import { bond as bondSchema } from '../data/schema/struct-schema';
 import isHidden from './isHidden';

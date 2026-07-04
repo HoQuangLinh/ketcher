@@ -2,7 +2,7 @@ import {
   generateMenuShortcuts,
   hotkeysConfiguration,
   ZoomTool,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export const hotkeysShortcuts =
   generateMenuShortcuts<typeof hotkeysConfiguration>(hotkeysConfiguration);

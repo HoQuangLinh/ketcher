@@ -1,4 +1,7 @@
-import type { AttachmentPointName, FunctionalGroup } from 'ketcher-core';
+import type {
+  AttachmentPointName,
+  FunctionalGroup,
+} from '@hoquanglinh/ketcher-core';
 import type { TriggerEvent, PredicateParams } from 'react-contexify';
 import type { Selection } from '../../../../editor/Editor';
 

@@ -18,7 +18,7 @@ import { fireEvent, render, screen } from '@testing-library/react';
 import { ModalContainer } from 'components/modal/modalContainer';
 import { RnaBuilder } from 'components/monomerLibrary/RnaBuilder';
 import { MONOMER_TYPES } from 'src/constants';
-import { EditorClassName } from 'ketcher-react';
+import { EditorClassName } from '@hoquanglinh/ketcher-react';
 import mockedPresets from './mockedPresets.json';
 
 jest.mock('../../../src/helpers/dom.ts', () => {

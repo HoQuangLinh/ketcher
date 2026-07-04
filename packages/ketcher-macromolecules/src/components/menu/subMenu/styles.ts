@@ -16,7 +16,7 @@
 
 import styled from '@emotion/styled';
 import { Collapse } from '@mui/material';
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 
 import { IStyledDropdownIconProps, OptionsContainerProps } from './types';
 

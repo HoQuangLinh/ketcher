@@ -7,7 +7,7 @@ import {
   RnaPresetWithOptionalFields,
   setAmbiguousMonomerTemplatePrefix,
   setMonomerTemplatePrefix,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 // transform preset from IRnaPreset to IRnaLabeledPreset
 export const transformRnaPresetToRnaLabeledPreset = (

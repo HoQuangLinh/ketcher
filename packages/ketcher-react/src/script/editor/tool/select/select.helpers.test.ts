@@ -1,7 +1,7 @@
 import { getNewSelectedItems } from './select.helpers';
 
 jest.mock(
-  'ketcher-core',
+  '@hoquanglinh/ketcher-core',
   () => ({
     SGroup: {
       getAtoms: jest.fn((_, sgroup) => sgroup.atoms),
@@ -11,7 +11,8 @@ jest.mock(
   { virtual: true },
 );
 
-const getSGroupMock = () => jest.requireMock('ketcher-core').SGroup;
+const getSGroupMock = () =>
+  jest.requireMock('@hoquanglinh/ketcher-core').SGroup;
 
 describe('select helpers', () => {
   beforeEach(() => {

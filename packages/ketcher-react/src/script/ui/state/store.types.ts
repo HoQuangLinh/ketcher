@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import type { Struct } from 'ketcher-core';
+import type { Struct } from '@hoquanglinh/ketcher-core';
 
 // TODO: This is a partial type definition of the Redux store.
 // The actual store structure is more complex and should be expanded

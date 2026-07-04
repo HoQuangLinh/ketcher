@@ -8,7 +8,7 @@ import {
   MULTITAIL_ARROW_KEY,
   multitailArrowReferenceLinesToCursor,
   multitailReferencePositionToCursor,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export function getItemCursor(
   render: Render,

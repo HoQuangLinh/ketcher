@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StructAssociatedData
+[@hoquanglinh/ketcher-core](../README.md) / StructAssociatedData
 
 # Interface: StructAssociatedData
 

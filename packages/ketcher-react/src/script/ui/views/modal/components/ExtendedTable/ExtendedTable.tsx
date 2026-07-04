@@ -25,7 +25,7 @@ import GenericGroups from './components/GenericGroups';
 import classes from './ExtendedTable.module.less';
 import { connect } from 'react-redux';
 import type { Dispatch } from 'redux';
-import type { Editor } from 'ketcher-core';
+import type { Editor } from '@hoquanglinh/ketcher-core';
 import { onAction } from '../../../../state';
 import { useState } from 'react';
 

@@ -1,4 +1,4 @@
-import type { Ketcher } from 'ketcher-core';
+import type { Ketcher } from '@hoquanglinh/ketcher-core';
 import type { BaseRenderer } from 'application/render';
 import type { LogSettings } from 'utilities';
 

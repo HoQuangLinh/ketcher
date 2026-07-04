@@ -11,7 +11,7 @@ import {
   waitForRender,
   waitForSpinnerFinishedWork,
 } from '@utils';
-import { MolfileFormat } from 'ketcher-core';
+import { MolfileFormat } from '@hoquanglinh/ketcher-core';
 import { OpenStructureDialog } from '@tests/pages/common/OpenStructureDialog';
 import { PasteFromClipboardDialog } from '@tests/pages/common/PasteFromClipboardDialog';
 import {

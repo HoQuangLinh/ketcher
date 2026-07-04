@@ -1,6 +1,6 @@
 /**
  * Settings schema with defaults, validation schema, and presets
- * Migrated from ketcher-react options-schema.ts
+ * Migrated from @hoquanglinh/ketcher-react options-schema.ts
  */
 
 import type { Settings, DeepPartial } from './types';

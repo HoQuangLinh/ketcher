@@ -59,21 +59,18 @@ export const valuesToReplace = {
 };
 
 const config = {
-  input: pkg.source,
-  output: [
-    {
-      dir: 'dist/cjs',
-      exports: 'named',
-      format: 'cjs',
-      banner: license,
-    },
-    {
-      dir: 'dist',
-      exports: 'named',
-      format: 'es',
-      banner: license,
-    },
-  ],
+  input: {
+    index: pkg.source,
+    next: 'src/next.tsx',
+  },
+  output: {
+    dir: 'dist',
+    entryFileNames: '[name].js',
+    chunkFileNames: 'chunks/[name]-[hash].js',
+    exports: 'named',
+    format: 'es',
+    banner: license,
+  },
   plugins: [
     del({
       targets: 'dist/*',
@@ -83,7 +80,7 @@ const config = {
       plugins: [autoprefixer({ grid: 'autoplace' })],
       extract: 'index.css',
       minimize: isProduction,
-      sourceMap: true,
+      sourceMap: false,
       include: [includePattern, '../ketcher-macromolecules/dist/index.css'],
     }),
     svgrPlugin({ include: includePattern }),

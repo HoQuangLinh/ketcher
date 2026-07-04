@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReSGroup
+[@hoquanglinh/ketcher-core](../README.md) / ReSGroup
 
 # Class: ReSGroup
 

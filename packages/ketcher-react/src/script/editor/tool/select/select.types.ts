@@ -4,7 +4,7 @@ import {
   type ImageReferencePositionInfo,
   type Vec2,
   IMAGE_KEY,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { ClosestItemWithMap } from '../../shared/closest.types';
 import type {
   CommonArrowDragContext,

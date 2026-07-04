@@ -1,4 +1,4 @@
-import { ReStruct, Vec2 } from 'ketcher-core';
+import { ReStruct, Vec2 } from '@hoquanglinh/ketcher-core';
 
 export function getSelectionMap(structure: ReStruct) {
   return Object.keys(ReStruct.maps).reduce((result, map) => {

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { IconButton, getFullscreenElement } from 'ketcher-react';
+import { IconButton, getFullscreenElement } from '@hoquanglinh/ketcher-react';
 import styled from '@emotion/styled';
 import { useEffect, useState } from 'react';
 

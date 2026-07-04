@@ -10,7 +10,7 @@ import type {
   Ketcher,
   Editor as MoleculesEditor,
   CoreEditor,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 type Props = Omit<EditorProps, 'ketcherId'> & {
   disableMacromoleculesEditor?: boolean;
@@ -28,19 +28,19 @@ interface MacromoleculesEditorProps {
 }
 /*
  * TODO:
- *  ketcher-macromolecules is imported asynchronously to avoid circular dependencies between it and ketcher-react
- *  and ts-ignore is needed to avoid TypeScript error as ketcher-react is built first
- *  so ketcher-macromolecules can't provide any typings while building ketcher-react.
+ *  @hoquanglinh/ketcher-macromolecules is imported asynchronously to avoid circular dependencies between it and @hoquanglinh/ketcher-react
+ *  and ts-ignore is needed to avoid TypeScript error as @hoquanglinh/ketcher-react is built first
+ *  so @hoquanglinh/ketcher-macromolecules can't provide any typings while building @hoquanglinh/ketcher-react.
  *  Consider refactoring/restructuring packages to avoid these two issues
  *
  *  NOTE: The circular dependency check (test:circ) uses --skip-dynamic-imports tree so that dpdm does not
  *  traverse this dynamic import. If this import is ever changed to a static one, the flag must be removed
- *  and the resulting cross-package cycle (ketcher-macromolecules -> ketcher-react) must be resolved first.
+ *  and the resulting cross-package cycle (@hoquanglinh/ketcher-macromolecules -> @hoquanglinh/ketcher-react) must be resolved first.
  */
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 const MacromoleculesEditorComponent = lazy(
-  () => import('ketcher-macromolecules'),
+  () => import('@hoquanglinh/ketcher-macromolecules'),
 ) as unknown as React.LazyExoticComponent<
   React.ComponentType<MacromoleculesEditorProps>
 >;

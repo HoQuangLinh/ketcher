@@ -1,4 +1,4 @@
-import type { AtomLabel, AttachmentPointName } from 'ketcher-core';
+import type { AtomLabel, AttachmentPointName } from '@hoquanglinh/ketcher-core';
 import Select from '../../../../../component/form/Select';
 import type { AttachmentPointSelectData } from '../../hooks/useAttachmentPointSelectsData';
 import styles from './AttachmentPointControls.module.less';

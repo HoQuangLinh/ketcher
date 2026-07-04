@@ -7,7 +7,7 @@ import type {
   AtomContextMenuProps,
   ItemEventParams,
 } from '../contextMenu.types';
-import { ketcherProvider } from 'ketcher-core';
+import { ketcherProvider } from '@hoquanglinh/ketcher-core';
 
 type Params = ItemEventParams<AtomContextMenuProps>;
 

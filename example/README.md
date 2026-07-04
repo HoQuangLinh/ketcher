@@ -15,7 +15,7 @@ npx cross-env REACT_APP_API_PATH=https://indigo.example.com/v2 npm run dev:remot
 
 | Variable | Default | Description |
 | --- | --- | --- |
-| `MODE` | `standalone` | Selects the structure service provider. Use `standalone` to run Indigo in the browser with `ketcher-standalone`, or `remote` to call an Indigo service. The provided `dev:*`, `start:*`, and `build:*` scripts set this value automatically. |
+| `MODE` | `standalone` | Selects the structure service provider. Use `standalone` to run Indigo in the browser with `@hoquanglinh/ketcher-standalone`, or `remote` to call an Indigo service. The provided `dev:*`, `start:*`, and `build:*` scripts set this value automatically. |
 | `REACT_APP_API_PATH` | `/v2` | Indigo service URL used in remote mode. This value is also exposed as `API_PATH` in Webpack builds. |
 | `API_PATH` | `REACT_APP_API_PATH` | Indigo service URL consumed by the application when it is available. Prefer `REACT_APP_API_PATH` for consistency between Vite development and Webpack builds. |
 | `PUBLIC_URL` | `./` | Base URL for static assets and Ketcher resources such as icons, the manifest, and standalone assets. |

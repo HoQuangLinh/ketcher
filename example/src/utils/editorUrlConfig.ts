@@ -1,4 +1,4 @@
-import { ButtonsConfig } from 'ketcher-react';
+import { ButtonsConfig } from '@hoquanglinh/ketcher-react';
 
 export const getHiddenButtonsConfig = (): ButtonsConfig => {
   const searchParams = new URLSearchParams(window.location.search);

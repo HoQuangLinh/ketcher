@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / StructFormatter
+[@hoquanglinh/ketcher-core](../README.md) / StructFormatter
 
 # Interface: StructFormatter
 

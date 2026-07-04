@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-import { Settings } from 'ketcher-core';
+import { Settings } from '@hoquanglinh/ketcher-core';
 
 export interface FieldGroup {
   id: string;
@@ -145,7 +145,7 @@ export const FIELD_DEFINITIONS: Record<string, FieldDefinition> = {
   font: {
     label: 'Font',
     type: 'select',
-    // TODO: Replace with dynamic font detection (see ketcher-react/systemfonts.jsx)
+    // TODO: Replace with dynamic font detection (see @hoquanglinh/ketcher-react/systemfonts.jsx)
     // This hardcoded list should be replaced with runtime font detection using FontFaceObserver
     // to only show fonts actually available on the user's system
     options: [

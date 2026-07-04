@@ -24,7 +24,7 @@ import {
   fromTemplateOnCanvas,
   fromMultipleMove,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../Editor';
 import { MODES } from 'src/constants';
 import { getAngleFromEvent, getBondFlipSign } from './template.helpers';

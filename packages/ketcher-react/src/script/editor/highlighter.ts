@@ -18,7 +18,7 @@ import {
   type Struct,
   fromHighlightCreate,
   fromHighlightClear,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 import type { Editor } from './Editor';
 

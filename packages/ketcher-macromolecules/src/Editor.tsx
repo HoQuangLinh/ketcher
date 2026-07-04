@@ -35,7 +35,7 @@ import {
   NodeSelection,
   NodesSelection,
   DeepPartial,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { store } from 'state';
 import {
   defaultTheme,
@@ -67,7 +67,7 @@ import {
 } from 'hooks';
 import { closeErrorTooltip, selectErrorTooltips } from 'state/modal';
 import { ModalContainer } from 'components/modal/modalContainer';
-import { EditorClassName } from 'ketcher-react';
+import { EditorClassName } from '@hoquanglinh/ketcher-react';
 import { Snackbar } from '@mui/material';
 import {
   StyledIconButton,

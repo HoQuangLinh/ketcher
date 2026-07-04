@@ -1,4 +1,4 @@
-import { Ketcher } from 'ketcher-core';
+import { Ketcher } from '@hoquanglinh/ketcher-core';
 
 declare global {
   export interface IMessage {

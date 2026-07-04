@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / SGroup
+[@hoquanglinh/ketcher-core](../README.md) / SGroup
 
 # Class: SGroup
 

@@ -6,7 +6,7 @@ import {
   Struct,
   SupportedModes,
   UpdateMonomersLibraryParams,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 
 export enum MolFileFormat {
   v2000 = 'v2000',

@@ -39,7 +39,7 @@ import type { DialogParams } from '../../../../../../components/Dialog/Dialog';
 import { FontControl } from './FontControl';
 import { SpecialSymbolsButton } from './SpecialSymbols/SpecialSymbolsButton';
 import { TextButton } from './TextButton';
-import { TextCommand } from 'ketcher-core';
+import { TextCommand } from '@hoquanglinh/ketcher-core';
 import classes from './Text.module.less';
 import { connect } from 'react-redux';
 import type { IconName } from 'components';

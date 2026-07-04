@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { StructRender } from 'ketcher-react';
+import { StructRender } from '@hoquanglinh/ketcher-react';
 
 interface IStyledStyledStructRender {
   isExpanded?: boolean;

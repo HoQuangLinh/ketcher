@@ -24,7 +24,7 @@ import {
   fromTextUpdating,
   KetcherLogger,
   CoordinateTransformation,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { Tool } from './Tool';
 import { handleMovingPosibilityCursor } from '../utils';
 

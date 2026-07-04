@@ -20,7 +20,7 @@ import type { PeriodTableResult, PeriodTableType } from './types';
 
 import { type FC, Component } from 'react';
 import { Dialog } from '../../../components';
-import { type Editor, type Element, Elements } from 'ketcher-core';
+import { type Editor, type Element, Elements } from '@hoquanglinh/ketcher-core';
 import { addAtoms } from '../../../../state/toolbar';
 import classes from './PeriodTable.module.less';
 import { connect } from 'react-redux';

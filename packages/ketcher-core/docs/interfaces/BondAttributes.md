@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / BondAttributes
+[@hoquanglinh/ketcher-core](../README.md) / BondAttributes
 
 # Interface: BondAttributes
 

@@ -22,7 +22,7 @@ import { TextArea } from 'components/shared/TextArea';
 import { TextInputField } from 'components/shared/textInputField';
 import { getPropertiesByFormat, SupportedFormats } from 'helpers/formats';
 import { ActionButton } from 'components/shared/actionButton';
-import { IconButton, IndigoProvider } from 'ketcher-react';
+import { IconButton, IndigoProvider } from '@hoquanglinh/ketcher-react';
 import {
   ChemicalMimeType,
   KetSerializer,
@@ -33,7 +33,7 @@ import {
   legacyCopy,
   isHelmCompatible,
   provideEditorInstance,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import { saveAs } from 'file-saver';
 import { RequiredModalProps } from '../modalContainer';
 import { LoadingCircles } from '../Open/AnalyzingFile/LoadingCircles';

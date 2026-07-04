@@ -17,7 +17,7 @@
 import type { Root } from 'react-dom/client';
 import { type ButtonsConfig, KetcherBuilder } from './builders';
 
-import type { StructServiceProvider } from 'ketcher-core';
+import type { StructServiceProvider } from '@hoquanglinh/ketcher-core';
 import type { CustomButton } from './builders/ketcher/CustomButtons';
 
 interface Config {

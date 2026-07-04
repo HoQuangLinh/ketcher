@@ -3,7 +3,7 @@ import {
   FunctionalGroup,
   MonomerMicromolecule,
   MULTITAIL_ARROW_KEY,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type { Editor, ClosestItemWithMap } from 'src/script/editor';
 import {
   type ContextMenuProps,

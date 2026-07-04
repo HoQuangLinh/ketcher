@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import type React from 'react';
-import type { TextCommand } from 'ketcher-core';
+import type { TextCommand } from '@hoquanglinh/ketcher-core';
 import clsx from 'clsx';
 import styles from './TextButton.module.less';
 import { type IconName, Icon } from 'components';

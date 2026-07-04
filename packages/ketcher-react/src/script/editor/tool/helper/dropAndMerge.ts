@@ -7,7 +7,7 @@ import {
   setExpandSGroup,
   SGroup,
   ReBond,
-} from 'ketcher-core';
+} from '@hoquanglinh/ketcher-core';
 import type Editor from '../../Editor';
 import { getGroupIdsFromItemMaps } from './getGroupIdsFromItems';
 

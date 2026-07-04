@@ -15,7 +15,7 @@
  ***************************************************************************/
 
 import { type FC, useState, useEffect } from 'react';
-import type { Render } from 'ketcher-core';
+import type { Render } from '@hoquanglinh/ketcher-core';
 
 import classes from './InfoPanel.module.less';
 import { connect } from 'react-redux';

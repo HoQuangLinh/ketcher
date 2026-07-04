@@ -44,7 +44,7 @@ module.exports = override(
     new CopyPlugin({
       patterns: [
         // {
-        //   from: '../node_modules/ketcher-standalone/**/*.wasm',
+        //   from: '../node_modules/@hoquanglinh/ketcher-standalone/**/*.wasm',
         //   to: '[name][ext]',
         // },
         {

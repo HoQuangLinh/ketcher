@@ -19,7 +19,7 @@ import {
   ErrorsContext,
   SettingsContext,
 } from './../../../contexts';
-import type { StructService } from 'ketcher-core';
+import type { StructService } from '@hoquanglinh/ketcher-core';
 
 import App from './App.container';
 import { Provider } from 'react-redux';

@@ -1,4 +1,4 @@
-[ketcher-core](../README.md) / ReText
+[@hoquanglinh/ketcher-core](../README.md) / ReText
 
 # Class: ReText
 

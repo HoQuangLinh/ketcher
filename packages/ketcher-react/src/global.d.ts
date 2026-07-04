@@ -1,4 +1,4 @@
-import type { BaseRenderer, Ketcher } from 'ketcher-core';
+import type { BaseRenderer, Ketcher } from '@hoquanglinh/ketcher-core';
 
 declare global {
   let global: typeof globalThis;

@@ -1,4 +1,4 @@
-import { Icon } from 'ketcher-react';
+import { Icon } from '@hoquanglinh/ketcher-react';
 import { StyledContent } from './UnresolvedMonomerPreview.styles';
 
 interface Props {
