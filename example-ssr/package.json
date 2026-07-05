@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 5173",
+    "dev": "run-s dev:prepare dev:serve",
+    "dev:prepare": "npm --prefix .. run build:core && npm --prefix .. run build:react",
+    "dev:serve": "run-p dev:watch:core dev:watch:react dev:next",
+    "dev:next": "next dev -p 5173",
+    "dev:watch:core": "npm --prefix .. run start -w @hoquanglinh/ketcher-core",
+    "dev:watch:react": "npm --prefix .. run start -w @hoquanglinh/ketcher-react",
     "build": "next build",
-    "test:types": "tsc --noEmit",
+    "test:types": "tsc --noEmit -p tsconfig.check.json",
     "start": "next start",
     "lint": "eslint src"
   },
@@ -18,12 +23,15 @@
     "react-dom": "^19.2.3"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@types/node": "^20",
     "@types/react": "^19.2.3",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^7.0.3",
     "eslint": "^9.17.0",
     "eslint-config-next": "16.1.4",
+    "less": "^3.12.2",
+    "less-loader": "^12.2.0",
     "typescript": "^6.0.3"
   }
 }

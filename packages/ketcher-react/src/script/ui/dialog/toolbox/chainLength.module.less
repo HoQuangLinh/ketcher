@@ -1,0 +1,47 @@
+@import '../../../../style/variables.less';
+
+.chainLength {
+  width: 420px;
+  max-width: calc(100vw - 32px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: @color-text-primary;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 72px;
+  height: 32px;
+  padding: 4px 8px;
+  border: 1px solid @color-grey-4;
+  border-radius: 4px;
+  color: @color-text-primary;
+  font: inherit;
+  text-align: right;
+}
+
+.input:focus {
+  border-color: @color-primary;
+  outline: 2px solid fade(@color-primary, 28%);
+  outline-offset: 0;
+}
+
+.hint {
+  margin: 0;
+  color: @color-text-secondary;
+  font-size: 14px;
+  line-height: 20px;
+}

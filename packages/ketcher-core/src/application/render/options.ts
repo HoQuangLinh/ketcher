@@ -57,7 +57,7 @@ function defaultOptions(renderOptions: RenderOptions): RenderOptions {
     // atoms
     carbonExplicitly: false,
     showCharge: true,
-    showHydrogenLabels: ShowHydrogenLabels.TerminalAndHetero,
+    showHydrogenLabels: ShowHydrogenLabels.Off,
     showValence: true,
     // bonds
     aromaticCircle: true,

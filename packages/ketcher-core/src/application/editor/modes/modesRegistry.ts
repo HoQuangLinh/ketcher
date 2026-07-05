@@ -6,10 +6,16 @@ type ModeConstructor = new (previousMode?: LayoutMode) => BaseMode;
 const modesMap: Partial<Record<LayoutMode, ModeConstructor>> = {};
 
 export function registerMode(mode: LayoutMode, ctor: ModeConstructor) {
-  if (modesMap[mode] && modesMap[mode] !== ctor) {
+  const registeredCtor = modesMap[mode];
+
+  if (
+    registeredCtor &&
+    registeredCtor !== ctor &&
+    process.env.NODE_ENV !== 'development'
+  ) {
     throw new Error(`Mode "${mode}" is already registered`);
   }
-  if (modesMap[mode] === ctor) {
+  if (registeredCtor === ctor) {
     return;
   }
   modesMap[mode] = ctor;

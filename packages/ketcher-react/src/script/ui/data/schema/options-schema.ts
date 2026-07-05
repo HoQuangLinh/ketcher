@@ -61,6 +61,7 @@ const editor: {
 
 const render: {
   showValenceWarnings: ExtendedSchema;
+  showGrid: ExtendedSchema;
   atomColoring: ExtendedSchema;
   showStereoFlags: ExtendedSchema;
   stereoLabelStyle: ExtendedSchema;
@@ -102,6 +103,12 @@ const render: {
     type: 'boolean',
     description: 'slider',
     default: true,
+  },
+  showGrid: {
+    title: 'Show grid',
+    type: 'boolean',
+    description: 'slider',
+    default: false,
   },
   atomColoring: {
     title: 'Atom coloring',
@@ -238,7 +245,7 @@ const render: {
     title: 'Show hydrogen labels',
     enum: Object.values(ShowHydrogenLabels),
     enumNames: Object.values(ShowHydrogenLabelNames),
-    default: ShowHydrogenLabels.TerminalAndHetero,
+    default: ShowHydrogenLabels.Off,
   },
   // Bonds
   aromaticCircle: {

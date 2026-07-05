@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@hoquanglinh/ketcher-react/next": [
+        "../packages/ketcher-react/src/next.tsx"
+      ],
+      "@hoquanglinh/ketcher-react/index.css": [
+        "../packages/ketcher-react/src/index.less"
+      ],
+      "@hoquanglinh/ketcher-react": ["../packages/ketcher-react/src/index.tsx"],
+      "@hoquanglinh/ketcher-core": ["../packages/ketcher-core/src/index.ts"],
+      "@hoquanglinh/ketcher-standalone": [
+        "../packages/ketcher-standalone/src/index.ts"
+      ]
+    }
+  }
+}

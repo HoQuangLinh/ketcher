@@ -40,7 +40,7 @@ export const DEFAULT_SETTINGS: Settings = {
   carbonExplicitly: false,
   showCharge: true,
   showValence: true,
-  showHydrogenLabels: 'Terminal and Hetero', // 'off', 'Hetero', 'Terminal', 'Terminal and Hetero', 'On'
+  showHydrogenLabels: 'off', // 'off', 'Hetero', 'Terminal', 'Terminal and Hetero', 'On'
 
   // Bonds
   aromaticCircle: true,

@@ -32,6 +32,7 @@ import {
 import { Open, Save } from '../views/modal/components/document';
 
 import EnhancedStereo from './toolbox/enhancedStereo/enhancedStereo';
+import ChainLength from './toolbox/chainLength';
 import LabelEdit from './toolbox/labeledit';
 import PeriodTable from '../views/modal/components/PeriodTable';
 import ExtendedTable from '../views/modal/components/ExtendedTable';
@@ -60,6 +61,7 @@ export default {
   automap: Automap,
   bondProps: Bond,
   check: Check,
+  chainLength: ChainLength,
   enhancedStereo: EnhancedStereo,
   labelEdit: LabelEdit,
   rgroupLogic: RgroupLogic,
@@ -70,4 +72,5 @@ export default {
   text: Text,
   confirm: Confirm,
   'info-modal': InfoModal,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 } as any;

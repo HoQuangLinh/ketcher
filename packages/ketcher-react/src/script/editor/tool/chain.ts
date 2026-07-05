@@ -34,13 +34,65 @@ import type Editor from '../Editor';
 import type { Tool } from './Tool';
 import { isBondingWithMacroMolecule } from './helper/isMacroMolecule';
 
+const MIN_CHAIN_DRAG_DISTANCE = 0.1;
+
 class ChainTool implements Tool {
   private readonly editor: Editor;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private dragCtx: any;
 
   constructor(editor) {
     this.editor = editor;
     this.editor.selection(null);
+  }
+
+  private getFixedChainSectorCount(
+    atomId: number | null,
+    carbonAtoms: number,
+  ): number | null {
+    if (!carbonAtoms || carbonAtoms < 1) {
+      return null;
+    }
+
+    return atomId === null ? carbonAtoms - 1 : carbonAtoms;
+  }
+
+  private addFixedChain(dragCtx, carbonAtoms: number) {
+    const struct = this.editor.render.ctab;
+    const atomId = dragCtx.item?.map === 'atoms' ? dragCtx.item.id : null;
+    const sectCount = this.getFixedChainSectorCount(atomId, carbonAtoms);
+
+    if (sectCount === null) {
+      return null;
+    }
+
+    const pos0 =
+      atomId !== null ? struct.molecule.atoms.get(atomId)?.pp : dragCtx.xy0;
+
+    if (!pos0) {
+      return null;
+    }
+
+    const [action, newItems] = fromChain(struct, pos0, 0, sectCount, atomId);
+    const mergeItems = getItemsToFuse(this.editor, newItems);
+
+    return fromItemsFuse(struct, mergeItems).mergeWith(action);
+  }
+
+  private openChainLengthDialog(dragCtx) {
+    this.editor.event.chainLengthEdit
+      .dispatch({ initialCarbonAtoms: 5 })
+      .then((carbonAtoms) => {
+        const action = this.addFixedChain(dragCtx, Number(carbonAtoms));
+
+        this.editor.selection(null);
+        this.editor.hover(null);
+
+        if (action) {
+          this.editor.update(action);
+        }
+      })
+      .catch(() => undefined);
   }
 
   mousedown(event) {
@@ -177,7 +229,13 @@ class ChainTool implements Tool {
           : dragCtx.xy0;
 
         const pos1 = CoordinateTransformation.pageToModel(event, editor.render);
-        const sectCount = Math.ceil(Vec2.diff(pos1, pos0).length());
+        const dragDistance = Vec2.diff(pos1, pos0).length();
+
+        if (!dragCtx.action && dragDistance < MIN_CHAIN_DRAG_DISTANCE) {
+          return true;
+        }
+
+        const sectCount = Math.ceil(dragDistance);
 
         const angle = event.ctrlKey
           ? vectorUtils.calcAngle(pos0, pos1)
@@ -206,7 +264,7 @@ class ChainTool implements Tool {
     return true;
   }
 
-  mouseup() {
+  mouseup(event?) {
     const struct = this.editor.render.ctab;
     const molecule = struct.molecule;
     const functionalGroups = molecule.functionalGroups;
@@ -254,6 +312,21 @@ class ChainTool implements Tool {
 
       if (dragCtx.stopTapping) {
         dragCtx.stopTapping();
+      }
+
+      if (!dragCtx.action && dragCtx.item?.map !== 'bonds') {
+        editor.selection(null);
+        editor.hover(null);
+
+        if (event?.type === 'mouseup') {
+          this.openChainLengthDialog(dragCtx);
+        }
+
+        editor.event.message.dispatch({
+          info: false,
+        });
+
+        return true;
       }
 
       if (!dragCtx.action && dragCtx.item?.map === 'bonds') {

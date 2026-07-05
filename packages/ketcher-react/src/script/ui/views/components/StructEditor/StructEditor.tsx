@@ -344,6 +344,7 @@ class StructEditor extends Component<StructEditorProps, StructEditorState> {
       'options',
       'onInit',
       'onSelectionChange',
+      'onChainLengthEdit',
       'onElementEdit',
       'onEnhancedStereoEdit',
       'onQuickEdit',

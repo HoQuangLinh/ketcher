@@ -84,6 +84,8 @@ export default function initEditor(dispatch, getState, ketcherId) {
     onSelectionChange: () => {
       updateAction();
     },
+    onChainLengthEdit: ({ initialCarbonAtoms }) =>
+      openDialog(dispatch, 'chainLength', { initialCarbonAtoms }),
     onElementEdit: (selem) => {
       if (isAtomsArray(selem)) {
         const atomAttributes = generateCommonProperties(

@@ -28,6 +28,7 @@ const mode = {
 
 const extensions = ['.js', '.jsx', '.ts', '.tsx'];
 const isProduction = process.env.NODE_ENV === mode.PRODUCTION;
+const isWatch = process.env.ROLLUP_WATCH === 'true';
 const includePattern = 'src/**/*';
 
 const pkg = JSON.parse(
@@ -72,10 +73,14 @@ const config = {
     banner: license,
   },
   plugins: [
-    del({
-      targets: 'dist/*',
-      runOnce: true,
-    }),
+    ...(!isWatch
+      ? [
+          del({
+            targets: 'dist/*',
+            runOnce: true,
+          }),
+        ]
+      : []),
     postcss({
       plugins: [autoprefixer({ grid: 'autoplace' })],
       extract: 'index.css',

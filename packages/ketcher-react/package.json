@@ -144,7 +144,8 @@
   },
   "files": [
     "dist",
-    "!dist/**/*.map",
+    "src",
+    "!dist/**/*.js.map",
     "!dist/cjs"
   ],
   "exports": {

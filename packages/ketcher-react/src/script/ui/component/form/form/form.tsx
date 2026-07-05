@@ -97,6 +97,7 @@ export interface FieldProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onChange?: (value: any) => void;
   placeholder?: string;
+  isFocused?: boolean;
   checked?: boolean;
   multiple?: boolean;
   testId?: string;
